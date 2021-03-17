@@ -15,12 +15,12 @@ var clusterer = new kakao.maps.MarkerClusterer({
 });
 
 let churchs = [
-    { x: 37.39234762613166, y: 127.13087848124754, name: '분당우리교회(송림본당)' },
-    { x: 37.385095301113125, y: 127.11948028227279, name: '분당우리교회(드림센터)' }
+    { id: 1, x: 37.39234762613166, y: 127.13087848124754, name: '분당우리교회(송림본당)' },
+    { id: 2, x: 37.385095301113125, y: 127.11948028227279, name: '분당우리교회(드림센터)' }
 ];
 
 let markers = [];
-var overlay;
+let overlayMap = new Map();
 
 churchs.forEach(church => {
     // 마커가 표시될 위치입니다 
@@ -34,21 +34,13 @@ churchs.forEach(church => {
     // 마커가 지도 위에 표시되도록 설정합니다
     marker.setMap(map);
 
-    // var iwContent = '<div style="padding:5px;">' + church.name + '</div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-
-    // // 인포윈도우를 생성합니다
-    // var infowindow = new kakao.maps.InfoWindow({
-    //     position: markerPosition,
-    //     content: iwContent
-    // });
-
     // 커스텀 오버레이에 표시할 컨텐츠 입니다
     // 커스텀 오버레이는 아래와 같이 사용자가 자유롭게 컨텐츠를 구성하고 이벤트를 제어할 수 있기 때문에
     // 별도의 이벤트 메소드를 제공하지 않습니다 
     var content = '<div class="wrap">' +
         '    <div class="info">' +
         '        <div class="title">' + church.name +
-        '            <div class="close" onclick="closeOverlay();" title="닫기"></div>' +
+        '            <div class="close" onclick="closeOverlay(' + church.id + ');" title="닫기"></div>' +
         '        </div>' +
         '        <div class="body">' +
         '            <div class="img">' +
@@ -65,7 +57,7 @@ churchs.forEach(church => {
 
     // 마커 위에 커스텀오버레이를 표시합니다
     // 마커를 중심으로 커스텀 오버레이를 표시하기위해 CSS를 이용해 위치를 설정했습니다
-    overlay = new kakao.maps.CustomOverlay({
+    var overlay = new kakao.maps.CustomOverlay({
         content: content,
         map: map,
         position: marker.getPosition()
@@ -78,31 +70,14 @@ churchs.forEach(church => {
 
     // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
     markers.push(marker);
-
-    // kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
-    // kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
-
+    overlayMap.set(church.id, overlay);
 
 });
 
 // 클러스터러에 마커들을 추가
 clusterer.addMarkers(markers);
 
-// 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
-function makeOverListener(map, marker, infowindow) {
-    return function () {
-        infowindow.open(map, marker);
-    };
-}
-
-// 인포윈도우를 닫는 클로저를 만드는 함수입니다 
-function makeOutListener(infowindow) {
-    return function () {
-        infowindow.close();
-    };
-}
-
 // 커스텀 오버레이를 닫기 위해 호출되는 함수입니다 
-function closeOverlay() {
-    overlay.setMap(null);
+function closeOverlay(churchId) {
+    overlayMap.get(churchId).setMap(null);
 }
