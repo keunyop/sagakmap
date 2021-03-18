@@ -63,6 +63,10 @@ churchs.forEach(church => {
         position: marker.getPosition()
     });
 
+    if (church.id != 1) {
+        overlay.setMap(null); // 처음 로딩시 안나오게
+    }
+
     // 마커를 클릭했을 때 커스텀 오버레이를 표시합니다
     kakao.maps.event.addListener(marker, 'click', function () {
         overlay.setMap(map);
@@ -70,6 +74,7 @@ churchs.forEach(church => {
 
     // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
     markers.push(marker);
+
     overlayMap.set(church.id, overlay);
 
 });
