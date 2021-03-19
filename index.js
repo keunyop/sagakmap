@@ -77,7 +77,7 @@ CHURCHS.forEach(church => {
 // 클러스터러에 마커들을 추가
 clusterer.addMarkers(markers);
 
-// 커스텀 오버레이를 닫기 위해 호출되는 함수입니다 
+// 커스텀 오버레이를 닫기 위해 호출되는 함수
 function closeOverlay(churchId) {
     overlayMap.get(churchId).setMap(null);
 }
