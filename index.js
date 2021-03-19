@@ -14,15 +14,10 @@ var clusterer = new kakao.maps.MarkerClusterer({
     minLevel: 10 // 클러스터 할 최소 지도 레벨 
 });
 
-let churchs = [
-    { id: 1, x: 37.39234762613166, y: 127.13087848124754, name: '분당우리교회(송림본당)' },
-    { id: 2, x: 37.385095301113125, y: 127.11948028227279, name: '분당우리교회(드림센터)' }
-];
-
 let markers = [];
 let overlayMap = new Map();
 
-churchs.forEach(church => {
+CHURCHS.forEach(church => {
     // 마커가 표시될 위치입니다 
     var markerPosition = new kakao.maps.LatLng(church.x, church.y);
 
@@ -44,12 +39,12 @@ churchs.forEach(church => {
         '        </div>' +
         '        <div class="body">' +
         '            <div class="img">' +
-        '                <img src="https://cfile181.uf.daum.net/image/250649365602043421936D" width="73" height="70">' +
+        '                <img src="' + church.img + '" width="73" height="70">' +
         '            </div>' +
         '            <div class="desc">' +
-        '                <div class="ellipsis">제주특별자치도 제주시 첨단로 242</div>' +
-        '                <div class="jibun ellipsis">(우) 63309 (지번) 영평동 2181</div>' +
-        '                <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' +
+        '                <div class="ellipsis">담임목사: ' + church.pastor + '</div>' +
+        '                <div class="jibun ellipsis">' + church.address + '</div>' +
+        '                <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' +
         '            </div>' +
         '        </div>' +
         '    </div>' +
