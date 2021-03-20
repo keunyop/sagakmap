@@ -1,20 +1,36 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ko">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>다음 지도 API</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>분당우리교회 일만성도파송운동</title>
+
+    <script type="text/javascript"
+        src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=621nlgfqwf"></script>
 </head>
 
 <body>
+    <nav class="navbar fixed-top navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">분당우리교회 일만성도파송운동</a>
+        </div>
+    </nav>
+
     <div id="map" style="width:100%;height:100vh;"></div>
 
-    <script
-        src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=6cec7b33219ccc7588f29d68c32e67bf&libraries=clusterer"></script>
-
-    <script src="churchlist.js"></script>
     <script src="index.js"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 
 </body>
 
