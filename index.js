@@ -6,10 +6,10 @@ var map = new naver.maps.Map('map', {
     zoom: 16
 });
 
-var markerList = [];
+var infowindows = [];
 
 for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
-    var icon = {
+    let icon = {
         url: MARKER_IMG_URL,
         size: new naver.maps.Size(24, 37),
         anchor: new naver.maps.Point(12, 37),
@@ -23,17 +23,40 @@ for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
 
     marker.set('seq', i);
 
-    markerList.push(marker);
-
     marker.addListener('mouseover', onMouseOver);
     marker.addListener('mouseout', onMouseOut);
+    marker.addListener('click', onClick);
+
+    let infowindow = new naver.maps.InfoWindow({
+        content: '<div class="wrap">' +
+            '    <div class="info">' +
+            '        <div class="title">' + CHURCHS[i].name +
+            '            <div class="close" onclick="closeOverlay(' + CHURCHS[i].id + ');" title="닫기"></div>' +
+            '        </div>' +
+            '        <div class="body">' +
+            '            <div class="img">' +
+            '                <img src="' + CHURCHS[i].img + '" width="73" height="70">' +
+            '            </div>' +
+            '            <div class="desc">' +
+            '                <div class="ellipsis">담임목사: ' + CHURCHS[i].pastor + '</div>' +
+            '                <div class="jibun ellipsis">' + CHURCHS[i].address + '</div>' +
+            '                <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' +
+            '            </div>' +
+            '        </div>' +
+            '    </div>' +
+            '</div>',
+        maxWidth: 300,
+    });
+
+    infowindows.push(infowindow);
 
     icon = null;
     marker = null;
+    infowindow = null;
 }
 
 function onMouseOver(e) {
-    var marker = e.overlay,
+    let marker = e.overlay,
         seq = marker.get('seq');
 
     marker.setIcon({
@@ -45,7 +68,7 @@ function onMouseOver(e) {
 }
 
 function onMouseOut(e) {
-    var marker = e.overlay,
+    let marker = e.overlay,
         seq = marker.get('seq');
 
     marker.setIcon({
@@ -54,4 +77,16 @@ function onMouseOut(e) {
         anchor: new naver.maps.Point(12, 37),
         origin: new naver.maps.Point(seq * 29, 0)
     });
+}
+
+function onClick(e) {
+    let marker = e.overlay,
+        seq = marker.get('seq'),
+        infowindow = infowindows[seq];
+
+    if (infowindow.getMap()) {
+        infowindow.close();
+    } else {
+        infowindow.open(map, marker);
+    }
 }
