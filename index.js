@@ -10,7 +10,7 @@ var infowindows = [];
 
 for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
     let icon = {
-        url: MARKER_IMG_URL,
+        url: MARKER_IMG_OVER_URL,
         size: new naver.maps.Size(24, 37),
         anchor: new naver.maps.Point(12, 37),
         origin: new naver.maps.Point(i * 29, 0)
@@ -28,24 +28,31 @@ for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
     marker.addListener('click', onClick);
 
     let infowindow = new naver.maps.InfoWindow({
-        content: '<div class="wrap">' +
-            '    <div class="info">' +
-            '        <div class="title">' + CHURCHS[i].name +
-            '            <div class="close" onclick="closeOverlay(' + CHURCHS[i].id + ');" title="닫기"></div>' +
-            '        </div>' +
-            '        <div class="body">' +
-            '            <div class="img">' +
-            '                <img src="' + CHURCHS[i].img + '" width="73" height="70">' +
-            '            </div>' +
-            '            <div class="desc">' +
-            '                <div class="ellipsis">담임목사: ' + CHURCHS[i].pastor + '</div>' +
-            '                <div class="jibun ellipsis">' + CHURCHS[i].address + '</div>' +
-            '                <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>' +
-            '            </div>' +
-            '        </div>' +
-            '    </div>' +
-            '</div>',
-        maxWidth: 300,
+        content: [
+            '<div class="wrap">',
+            '   <div class="info">',
+            '       <div class="title">' + CHURCHS[i].name,
+            '           <div class="close" onclick="closeOverlay(' + CHURCHS[i].id + ');" title="닫기"></div>',
+            '       </div>',
+            '       <div class="body">',
+            '           <div class="img">',
+            '               <img src="' + CHURCHS[i].img + '" width="73" height="70">',
+            '           </div>',
+            '           <div class="desc">',
+            '               <div class="ellipsis">담임목사: ' + CHURCHS[i].pastor + '</div>',
+            '               <div class="jibun ellipsis">' + CHURCHS[i].address + '</div>',
+            '               <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>',
+            '           </div>',
+            '       </div>',
+            '   </div>',
+            '</div>'
+        ].join(''),
+
+        borderWidth: 0,
+        disableAnchor: true,
+        backgroundColor: 'transparent',
+
+        pixelOffset: new naver.maps.Point(73, 33),
     });
 
     infowindows.push(infowindow);
@@ -60,7 +67,7 @@ function onMouseOver(e) {
         seq = marker.get('seq');
 
     marker.setIcon({
-        url: MARKER_IMG_OVER_URL,
+        url: MARKER_IMG_URL,
         size: new naver.maps.Size(24, 37),
         anchor: new naver.maps.Point(12, 37),
         origin: new naver.maps.Point(seq * 29, 50)
@@ -72,7 +79,7 @@ function onMouseOut(e) {
         seq = marker.get('seq');
 
     marker.setIcon({
-        url: MARKER_IMG_URL,
+        url: MARKER_IMG_OVER_URL,
         size: new naver.maps.Size(24, 37),
         anchor: new naver.maps.Point(12, 37),
         origin: new naver.maps.Point(seq * 29, 0)
@@ -89,4 +96,10 @@ function onClick(e) {
     } else {
         infowindow.open(map, marker);
     }
+}
+
+// 커스텀 오버레이를 닫기 위해 호출되는 함수
+function closeOverlay(churchId) {
+    let infowindow = infowindows[churchId-1];
+    infowindow.close();
 }
