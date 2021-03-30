@@ -14,5 +14,21 @@ const CHURCHS = [
         img: 'https://pds.joins.com/news/component/htmlphoto_mmdata/201912/24/8152a544-0640-4f25-8589-9b484b6d01ac.jpg',
         pastor: '이찬수',
         address: '경기도 성남시 분당구 황새울로 311번길 9'
-    }
+    },
+    {
+        id: 3,
+        position: new naver.maps.LatLng(37.6236179, 126.8366731),
+        name: '1 교구',
+        img: '',
+        pastor: '신종철',
+        address: '경기 서북부(김포시, 고양시, 파주시)'
+    },
+    {
+        id: 4,
+        position: new naver.maps.LatLng(37.5576747, 126.9941654),
+        name: '2 교구',
+        img: '',
+        pastor: '정광용',
+        address: '서울 1(마포구, 서대문구, 용산구, 은평구, 종로구, 중구)'
+    },
 ];
