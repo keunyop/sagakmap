@@ -9,6 +9,7 @@ var map = new naver.maps.Map('map', {
 var infowindows = [];
 
 for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
+
     let icon = {
         url: MARKER_IMG_OVER_URL,
         size: new naver.maps.Size(24, 37),
