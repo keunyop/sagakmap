@@ -1,5 +1,5 @@
-const MARKER_IMG_URL = 'https://ssl.pstatic.net/static/maps/img/icons/sp_pins_spot_v3.png',
-    MARKER_IMG_OVER_URL = 'https://ssl.pstatic.net/static/maps/img/icons/sp_pins_spot_v3_over.png';
+// const MARKER_IMG_URL = 'https://ssl.pstatic.net/static/maps/img/icons/sp_pins_spot_v3.png',
+//     MARKER_IMG_OVER_URL = 'https://ssl.pstatic.net/static/maps/img/icons/sp_pins_spot_v3_over.png';
 
 var map = new naver.maps.Map('map', {
     center: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
@@ -10,22 +10,23 @@ var infowindows = [];
 
 for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
 
-    let icon = {
-        url: MARKER_IMG_OVER_URL,
-        size: new naver.maps.Size(24, 37),
-        anchor: new naver.maps.Point(12, 37),
-        origin: new naver.maps.Point(i * 29, 0)
-    },
-        marker = new naver.maps.Marker({
-            position: CHURCHS[i].position,
-            map: map,
-            icon: icon
-        });
+    // let icon = {
+    //     url: MARKER_IMG_OVER_URL,
+    //     size: new naver.maps.Size(24, 37),
+    //     anchor: new naver.maps.Point(12, 37),
+    //     origin: new naver.maps.Point(i * 29, 0)
+    // };
+
+    let marker = new naver.maps.Marker({
+        position: CHURCHS[i].position,
+        map: map,
+        // icon: icon
+    });
 
     marker.set('seq', i);
 
-    marker.addListener('mouseover', onMouseOver);
-    marker.addListener('mouseout', onMouseOut);
+    // marker.addListener('mouseover', onMouseOver);
+    // marker.addListener('mouseout', onMouseOut);
     marker.addListener('click', onClick);
 
     let infowindow = new naver.maps.InfoWindow({
@@ -63,29 +64,29 @@ for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
     infowindow = null;
 }
 
-function onMouseOver(e) {
-    let marker = e.overlay,
-        seq = marker.get('seq');
+// function onMouseOver(e) {
+//     let marker = e.overlay,
+//         seq = marker.get('seq');
 
-    marker.setIcon({
-        url: MARKER_IMG_URL,
-        size: new naver.maps.Size(24, 37),
-        anchor: new naver.maps.Point(12, 37),
-        origin: new naver.maps.Point(seq * 29, 50)
-    });
-}
+//     marker.setIcon({
+//         url: MARKER_IMG_URL,
+//         size: new naver.maps.Size(24, 37),
+//         anchor: new naver.maps.Point(12, 37),
+//         origin: new naver.maps.Point(seq * 29, 50)
+//     });
+// }
 
-function onMouseOut(e) {
-    let marker = e.overlay,
-        seq = marker.get('seq');
+// function onMouseOut(e) {
+//     let marker = e.overlay,
+//         seq = marker.get('seq');
 
-    marker.setIcon({
-        url: MARKER_IMG_OVER_URL,
-        size: new naver.maps.Size(24, 37),
-        anchor: new naver.maps.Point(12, 37),
-        origin: new naver.maps.Point(seq * 29, 0)
-    });
-}
+//     marker.setIcon({
+//         url: MARKER_IMG_OVER_URL,
+//         size: new naver.maps.Size(24, 37),
+//         anchor: new naver.maps.Point(12, 37),
+//         origin: new naver.maps.Point(seq * 29, 0)
+//     });
+// }
 
 function onClick(e) {
     let marker = e.overlay,
@@ -101,6 +102,6 @@ function onClick(e) {
 
 // 커스텀 오버레이를 닫기 위해 호출되는 함수
 function closeOverlay(churchId) {
-    let infowindow = infowindows[churchId-1];
+    let infowindow = infowindows[churchId - 1];
     infowindow.close();
 }
