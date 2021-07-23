@@ -1,0 +1,1 @@
+document.getElementById('search').innerHTML += CHURCHS[1].name;
