@@ -1,5 +1,4 @@
-// Append the text to <li>
-
+// TODO: data/churchlist.js 의 데이터를 사용해야함.
 const CHURCHS = [
     {
         id: 1,
