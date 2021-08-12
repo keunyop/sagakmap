@@ -135,124 +135,12 @@ const CHURCHS = [
         img: 'static/img/김인용.png',
         pastor: '김인용',
         address: '분당 3(서현1동, 수내1, 2동)'
-    },
-    {
-        id: 18,
-        position: new naver.maps.LatLng(37.37612887763261, 127.134713910288),
-        name: '16 교구',
-        img: 'static/img/최정권.png',
-        pastor: '최정권',
-        address: '분당 4(분당동, 서현2동, 정자2동, 수내3동)'
-    },
-    {
-        id: 19,
-        position: new naver.maps.LatLng(37.36432949402776, 127.1167958424504),
-        name: '17 교구',
-        img: 'static/img/박현교.png',
-        pastor: '박현교',
-        address: '분당 5(정자동, 정자1, 3동, 구미동)'
-    },
-    {
-        id: 20,
-        position: new naver.maps.LatLng(37.38409656991021, 127.07587197221969),
-        name: '18 교구',
-        img: 'static/img/박민근.png',
-        pastor: '박민근',
-        address: '분당 6(백현동, 판교동, 운중동, 하산운동, 금곡동, 궁내동, 대장동, 동원동)'
-    },
-    {
-        id: 21,
-        position: new naver.maps.LatLng(37.30052675082409, 127.60906474887996),
-        name: '19 교구',
-        img: 'static/img/윤지영.png',
-        pastor: '윤지영',
-        address: '광주 1(태전동, 경안동(오포읍을 제외한 광주), 여주, 이천, 원주)'
-    },
-    {
-        id: 22,
-        position: new naver.maps.LatLng(37.366398437902966, 127.22924577470128),
-        name: '20 교구',
-        img: 'static/img/정진영.png',
-        pastor: '정진영',
-        address: '광주 2(오포읍, 모현읍)'
-    },
-    {
-        id: 23,
-        position: new naver.maps.LatLng(37.331283987294654, 127.11421050692988),
-        name: '21 교구',
-        img: 'static/img/안영주.png',
-        pastor: '안영주',
-        address: '수지 1(죽전1, 2동, 죽전동)'
-    },
-    {
-        id: 24,
-        position: new naver.maps.LatLng(37.33991193953674, 127.08119898484037),
-        name: '22 교구',
-        img: 'static/img/전광진.png',
-        pastor: '전광진',
-        address: '수지 2(동천동, 풍덕천동, 고기동)'
-    },
-    {
-        id: 25,
-        position: new naver.maps.LatLng(37.32044909336443, 127.05978485589709),
-        name: '23 교구',
-        img: 'static/img/이주현.png',
-        pastor: '이주현',
-        address: '수지 3(성복동, 신봉동, 상현동)'
-    },
-    {
-        id: 26,
-        position: new naver.maps.LatLng(37.30409605608955, 127.12333283587184),
-        name: '24 교구',
-        img: 'static/img/이상훈.png',
-        pastor: '이상훈',
-        address: '기흥 1(보정동, 마북동, 언남동)'
-    },
-    {
-        id: 27,
-        position: new naver.maps.LatLng(37.27258044103764, 127.15131685050838),
-        name: '25 교구',
-        img: 'static/img/김영윤.png',
-        pastor: '김영윤',
-        address: '기흥 2(동백동, 중동, 창덕동, 처인구(모현 제외))'
-    },
-    {
-        id: 28,
-        position: new naver.maps.LatLng(37.282631600020764, 127.09945282800419),
-        name: '26 교구',
-        img: 'static/img/탁병진.png',
-        pastor: '탁병진',
-        address: '기흥 3(신갈동, 지곡동, 하길동, 고매동, 공세동, 구갈동, 서천동, 영덕동, 보라동, 상갈동, 상하동)'
-    },
-    {
-        id: 29,
-        position: new naver.maps.LatLng(37.2796078810942, 127.04998608861365),
-        name: '27 교구',
-        img: 'static/img/우광민.png',
-        pastor: '우광민',
-        address: '광교(이의동, 원천동, 하동)'
-    },
-    {
-        id: 30,
-        position: new naver.maps.LatLng(37.235100365600324, 126.87456923292012),
-        name: '28 교구',
-        img: 'static/img/조훈.png',
-        pastor: '조훈',
-        address: '수원(수원시(광교 제외), 비봉면, 봉담읍)'
-    },
-    {
-        id: 31,
-        position: new naver.maps.LatLng(37.21120588032976, 127.07722922768443),
-        name: '29 교구',
-        img: 'static/img/이완수.png',
-        pastor: '이완수',
-        address: '경기 남부(화성시, 동탄이남)'
     }
 ];
 
 
 CHURCHS.forEach(church => {
-    var node = document.createElement("LI");                 // Create a <li> node
+    var node = document.createElement("li");                 // Create a <li> node
     var textnode = document.createTextNode(church.name);         // Create a text node
     node.appendChild(textnode);
 
