@@ -1,5 +1,5 @@
 // TODO: data/churchlist.js 의 데이터를 사용해야함.
-const CHURCHS = [
+const CHURCHS2 = [
     {
         id: 1,
         position: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
@@ -139,7 +139,7 @@ const CHURCHS = [
 ];
 
 
-CHURCHS.forEach(church => {
+CHURCHS2.forEach(church => {
     var node = document.createElement("li");                 // Create a <li> node
     var textnode = document.createTextNode(church.name);         // Create a text node
     node.appendChild(textnode);

@@ -1,6 +1,6 @@
 var map = new naver.maps.Map('map', {
     center: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
-    zoom: 16
+    zoom: 11
 });
 
 var infowindows = [];
@@ -46,14 +46,19 @@ for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
 
     infowindows.push(infowindow);
 
+    // 첫 로딩시 본당 open
+    if (i == 0) {
+        this.onClick(null, marker);
+    }
+
     icon = null;
     marker = null;
     infowindow = null;
 }
 
-function onClick(e) {
-    let marker = e.overlay,
-        seq = marker.get('seq'),
+function onClick(e, m) {
+    let marker = m ? m : e.overlay;
+    let seq = marker.get('seq'),
         infowindow = infowindows[seq];
 
     if (infowindow.getMap()) {
