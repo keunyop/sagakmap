@@ -73,3 +73,17 @@ function closeOverlay(churchId) {
     let infowindow = infowindows[churchId - 1];
     infowindow.close();
 }
+
+function closeAllChurchInfo() {
+    infowindows.forEach(infowindow => {
+        infowindow.close();
+    });
+}
+
+function openChurchInfo(churchId) {
+    let marker = new naver.maps.Marker({
+        position: CHURCHS[churchId - 1].position
+    });
+
+    infowindows[churchId - 1].open(map, marker);
+}
