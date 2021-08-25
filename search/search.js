@@ -28,6 +28,7 @@ CHURCHS.forEach(church => {
     a.setAttribute("class", "list-group-item list-group-item-action flex-column align-items-start");
     a.setAttribute("id", "churchlist-church" + church.id);
     a.setAttribute("onclick", "onClick_churchList(" + church.id + ");");
+    a.setAttribute("href", "#");
     a.appendChild(div);
     a.appendChild(address);
     a.appendChild(pastorName);
