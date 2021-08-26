@@ -26,6 +26,7 @@ CHURCHS.forEach(church => {
 
     var a = document.createElement("a");
     a.setAttribute("class", "list-group-item list-group-item-action flex-column align-items-start");
+    if (church.id == 1) a.classList.add('active');
     a.setAttribute("id", "churchlist-church" + church.id);
     a.setAttribute("onclick", "onClick_churchList(" + church.id + ");");
     a.setAttribute("href", "#");
@@ -51,3 +52,17 @@ function deactivateAll() {
         unclickedChurch.classList.remove('active');
     });
 }
+
+const ibx_searchchurch = document.getElementById("ibx_searchChurch");
+ibx_searchchurch.onkeyup = function () {
+    // ibx_searchchurch.value 
+
+    var churchList = document.getElementById("church-list").childNodes;
+
+    churchList.forEach(church => {
+        var text = church.innerText;
+        if (text.includes(ibx_searchchurch.value)) {
+            // TODO:
+        }
+    });
+};
