@@ -55,14 +55,14 @@ function deactivateAll() {
 
 const ibx_searchchurch = document.getElementById("ibx_searchChurch");
 ibx_searchchurch.onkeyup = function () {
-    // ibx_searchchurch.value 
-
     var churchList = document.getElementById("church-list").childNodes;
-
+    
     churchList.forEach(church => {
+        church.style.display = 'none';  // 전체 숨김
+
         var text = church.innerText;
         if (text.includes(ibx_searchchurch.value)) {
-            // TODO:
+            church.style.display = '';  // 검색 결과만 보이기
         }
     });
 };
