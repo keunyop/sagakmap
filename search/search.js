@@ -53,10 +53,13 @@ function deactivateAll() {
     });
 }
 
+/**
+ * 검색 기능
+ */
 const ibx_searchchurch = document.getElementById("ibx_searchChurch");
 ibx_searchchurch.onkeyup = function () {
     var churchList = document.getElementById("church-list").childNodes;
-    
+
     churchList.forEach(church => {
         church.style.display = 'none';  // 전체 숨김
 
