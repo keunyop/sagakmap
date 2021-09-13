@@ -1,7 +1,8 @@
-var map = new naver.maps.Map('map', {
-    center: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
-    zoom: 11
-});
+// var map = new naver.maps.Map('map', {
+//     center: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
+//     zoom: 11 // PC
+//     // zoom: 13        // Mobile
+// });
 
 var infowindows = [];
 
