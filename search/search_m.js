@@ -21,6 +21,7 @@ CHURCHS.forEach(church => {
 
     var a = document.createElement("a");
     a.setAttribute("class", "list-group-item list-group-item-action flex-column align-items-start");
+    if (church.id == 1) a.classList.add('active');
     a.setAttribute("id", "churchlist-church" + church.id);
     a.setAttribute("onclick", "onClick_churchList(" + church.id + ");");
     a.setAttribute("href", "#");
@@ -31,8 +32,20 @@ CHURCHS.forEach(church => {
 });
 
 function onClick_churchList(churchId) {
+    deactivateAll();
+    var clickedChurch = document.getElementById("churchlist-church" + churchId);
+    clickedChurch.classList.add('active');
+
     closeAllChurchInfo();
     openChurchInfo(churchId);
+    closeMobileSearchHeader();
+}
+
+function deactivateAll() {
+    CHURCHS.forEach(church => {
+        var unclickedChurch = document.getElementById("churchlist-church" + church.id);
+        unclickedChurch.classList.remove('active');
+    });
 }
 
 /**
@@ -51,3 +64,12 @@ ibx_searchchurch.onkeyup = function () {
         }
     });
 };
+
+/**
+ * 모바일 검색 헤더 닫기
+ */
+function closeMobileSearchHeader() {
+    const btnMobileSearchHamburger = document.getElementById("btn_mobileSearchHamburger");
+
+    btnMobileSearchHamburger.click();
+}
