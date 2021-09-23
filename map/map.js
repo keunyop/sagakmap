@@ -62,6 +62,8 @@ function onClick(e, m) {
     let seq = marker.get('seq'),
         infowindow = infowindows[seq];
 
+    moveMapCenter(marker.position);
+
     if (infowindow.getMap()) {
         infowindow.close();
     } else {
@@ -86,5 +88,11 @@ function openChurchInfo(churchId) {
         position: CHURCHS[churchId - 1].position
     });
 
+    moveMapCenter(marker.position);
+
     infowindows[churchId - 1].open(map, marker);
+}
+
+function moveMapCenter(position) {
+    map.panTo(position);
 }

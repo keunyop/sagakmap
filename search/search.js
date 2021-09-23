@@ -39,9 +39,7 @@ CHURCHS.forEach(church => {
 
 function onClick_churchList(churchId) {
     deactivateAll();
-    var clickedChurch = document.getElementById("churchlist-church" + churchId);
-    clickedChurch.classList.add('active');
-
+    activate(churchId);
     closeAllChurchInfo();
     openChurchInfo(churchId);
 }
@@ -51,6 +49,15 @@ function deactivateAll() {
         var unclickedChurch = document.getElementById("churchlist-church" + church.id);
         unclickedChurch.classList.remove('active');
     });
+}
+
+function activate(churchId) {
+    if (churchId == 0) {
+        return;
+    }
+
+    var clickedChurch = document.getElementById("churchlist-church" + churchId);
+    clickedChurch.classList.add('active');
 }
 
 /**
