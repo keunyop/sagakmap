@@ -31,7 +31,8 @@ for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
             '           <div class="desc">',
             '               <div class="ellipsis">담임목사: ' + CHURCHS[i].pastor + '</div>',
             '               <div class="jibun ellipsis">' + CHURCHS[i].address + '</div>',
-            '               <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>',
+            // '               <div><a href="https://www.kakaocorp.com/main" target="_blank" class="link">자세히보기</a></div>',
+            '               <div onclick="openDetail();"><p class="link"><u>자세히보기</u></p></div>',
             '           </div>',
             '       </div>',
             '   </div>',
@@ -95,4 +96,8 @@ function openChurchInfo(churchId) {
 
 function moveMapCenter(position) {
     map.panTo(position);
+}
+
+function openDetail() {
+    alert("!!!");
 }
