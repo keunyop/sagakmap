@@ -99,5 +99,5 @@ function moveMapCenter(position) {
 }
 
 function openDetail() {
-    alert("!!!");
+    $("#wrongModal").modal("show");
 }
