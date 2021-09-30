@@ -31,7 +31,7 @@ for (var i = 0, ii = CHURCHS.length; i < ii; i++) {
             '           <div class="desc">',
             '               <div class="ellipsis">담임목사: ' + CHURCHS[i].pastor + '</div>',
             '               <div class="jibun ellipsis">' + CHURCHS[i].address + '</div>',
-            '               <div type="button" onclick="openDetail(' + i + ');"><p class="link"><u>자세히보기</u></p></div>',
+            '               <div type="button" onclick="openDetail(' + i + ');"><p class="link"><u>상세보기</u></p></div>',
             '           </div>',
             '       </div>',
             '   </div>',
@@ -99,7 +99,9 @@ function moveMapCenter(position) {
 
 function openDetail(id) {
     $("#detailModalLabel").text(CHURCHS[id].name);
-    $("#pastorName").text(CHURCHS[id].pastor);
+    $("#detailModalPastorName").text(CHURCHS[id].pastor);
+    $("#detailModalDivision").text(CHURCHS[id].division);
+    $("#detailModalAddress").text(CHURCHS[id].address);
 
 
     $("#detailModal").modal("show");

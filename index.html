@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="search/search.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 
     <title>분당우리교회 일만성도파송운동</title>
@@ -70,11 +71,16 @@
                     <span type="button" onclick="closeDetailModal();">&times;</span>
                 </div>
                 <div class="modal-body">
-                    <h6>담임목사:<span id='pastorName'>김단일</span></h6>
-                    <h6>교구:</h6>
-                    <h6>지역:</h6>
-                    <h6>주소:</h6>
-                    <h6>전화번호:</h6>
+                    <i class="bi-person-fill" style="color: green;"></i> 담임목사 <span id='detailModalPastorName'
+                        style="font-weight: bold;"></span><br>
+                    <i class="bi-pin-map-fill" style="color: green;"></i> 교구 <span id='detailModalDivision'
+                        style="font-weight: bold;"></span><br>
+                    <i class="bi-map-fill" style="color: green;"></i> 지역 <span id='detailModalArea'
+                        style="font-weight: bold;"></span><br>
+                    <i class="bi-building" style="color: green;"></i> 주소 <span id='detailModalAddress'
+                        style="font-weight: bold;"></span><br>
+                    <i class="bi-telephone-fill" style="color: green;"></i> 전화번호 <span id='detailModalPhoneNumber'
+                        style="font-weight: bold;"></span>
                 </div>
             </div>
         </div>
