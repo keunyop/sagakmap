@@ -71,16 +71,30 @@
                     <span type="button" onclick="closeDetailModal();">&times;</span>
                 </div>
                 <div class="modal-body">
-                    <i class="bi-person-fill" style="color: green;"></i> 담임목사 <span id='detailModalPastorName'
-                        style="font-weight: bold;"></span><br>
-                    <i class="bi-pin-map-fill" style="color: green;"></i> 교구 <span id='detailModalDivision'
-                        style="font-weight: bold;"></span><br>
-                    <i class="bi-map-fill" style="color: green;"></i> 지역 <span id='detailModalArea'
-                        style="font-weight: bold;"></span><br>
-                    <i class="bi-building" style="color: green;"></i> 주소 <span id='detailModalAddress'
-                        style="font-weight: bold;"></span><br>
-                    <i class="bi-telephone-fill" style="color: green;"></i> 전화번호 <span id='detailModalPhoneNumber'
-                        style="font-weight: bold;"></span>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td><i class="bi-person-fill" style="color: green;"></i> 담임목사</td>
+                                <th><span id='detailModalPastorName'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-pin-map-fill" style="color: green;"></i> 교구</td>
+                                <th><span id='detailModalDivision'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-map-fill" style="color: green;"></i> 지역</td>
+                                <th><span id='detailModalArea'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-building" style="color: green;"></i> 주소</td>
+                                <th><span id='detailModalAddress'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-telephone-fill" style="color: green;"></i> 전화번호</td>
+                                <th><span id='detailModalPhoneNumber'></span></th>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
