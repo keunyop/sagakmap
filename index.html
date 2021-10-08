@@ -47,7 +47,8 @@
                     <div class="container">
                         <ul class="nav justify-content-center">
                             <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"
+                                    onclick="openAbout();">About</a></li>
                             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개인정보보호</a></li>
                         </ul>
                     </div>
@@ -95,6 +96,20 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About 팝업 -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About </h5>
+                    <span type="button" onclick="closeAboutModal();">&times;</span>
+                </div>
+                <div class="modal-body">
                 </div>
             </div>
         </div>
