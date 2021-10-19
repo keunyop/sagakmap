@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="map/map.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="search/search.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+    <title>분당우리교회 자영업 성도 사업장</title>
+
+    <!-- 지도 -->
+    <script type="text/javascript"
+        src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=621nlgfqwf"></script>
+
+    <!-- Google Adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8362228066874729"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" style="padding: 0">
+                <div class="navbar navbar-dark bg-success container-fluid">
+                    <a class="navbar-brand" href="index.html">분당우리교회 자영업 성도 사업장</a>
+                </div>
+                <div class="px-2">
+                    <div class="btn-group mt-2" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-success" for="btnradio1">전체</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-success" for="btnradio2">외식업</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-success" for="btnradio3">서비스업</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                        <label class="btn btn-outline-success" for="btnradio4">도소매업</label>
+                    </div>
+                    <div class="input-group mt-2 mb-2">
+                        <input class="form-control" id="ibx_searchChurch" placeholder="사업장 찾기" />
+                    </div>
+                    <!-- <div class="list-group overflow-auto" style="height: calc(100vh - 7rem)"> -->
+                    <div class="list-group overflow-auto" style="height: calc(100vh - 10.4rem)">
+                        <div id="church-list"></div>
+                    </div>
+                </div>
+                <footer class="footer mt-auto py-2 bg-light">
+                    <div class="container">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"
+                                    onclick="openAbout();">About</a></li>
+                            <li class="nav-item"><a href="https://www.woorichurch.org" target="_blank"
+                                    class="nav-link px-2 text-muted">분당우리교회</a></li>
+                        </ul>
+                    </div>
+
+                </footer>
+            </div>
+            <div class="col-md" style="margin:0; padding:0;">
+                <div id="map" style="width:100%;height:100%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 상세설명 팝업 -->
+    <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel"></h5>
+                    <span type="button" onclick="closeDetailModal();">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td style="width: 102px;"><i class="bi-person-fill" style="color: green;"></i> 담임목사</td>
+                                <th><span id='detailModalPastorName'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-pin-map-fill" style="color: green;"></i> 교구</td>
+                                <th><span id='detailModalDivision'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-map-fill" style="color: green;"></i> 지역</td>
+                                <th><span id='detailModalArea'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-building" style="color: green;"></i> 주소</td>
+                                <th><span id='detailModalAddress'></span></th>
+                            </tr>
+                            <tr>
+                                <td><i class="bi-telephone-fill" style="color: green;"></i> 전화번호</td>
+                                <th><span id='detailModalPhoneNumber'></span></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About 팝업 -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About</h5>
+                    <span type="button" onclick="closeAboutModal();">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">
+                        분당우리교회 일만성도 파송운동에 참여하는 29개 교구의 위치와 정보를 제공합니다.
+                    </p>
+
+                    <br>
+
+                    <h5>일만성도 파송운동의 2가지 의미</h5>
+                    <label>1. 하나님과의 약속을 지키는 차원에서의 의미</label><br>
+                    <label>2. 복음증거 차원의 의미</label>
+                    <br><br>
+                    <h5>일만성도 파송운동을 향한 2가지 꿈</h5>
+                    <label>1. 일만성도 파송운동에 참여하시는 모든 성도님들이 순종할 때 주시는 기쁨과 행복을 누리게 되시는 꿈</label>
+                    <label>2. 일만성도 파송운동이 진행되는 모든 지역의 이웃 작은 교회들과의 상생이 이뤄지는 꿈</label>
+                    <br><br>
+                    <h5>일만성도 파송운동과 관련한 2가지 기도제목</h5>
+                    <label>1. 일만성도 파송운동이 분당우리교회 성도님들에게 상처 없이 진행되게 하옵소서.</label>
+                    <label>2. 일만성도 파송운동이 하나님의 뜻에 의해서 차질없이 진행되게 하옵소서.</label>
+
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript -->
+    <script>
+        var map = new naver.maps.Map('map', {
+            center: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
+            zoom: 11
+        });
+    </script>
+
+    <script src="data/churchlist.js"></script>
+    <script src="index.js"></script>
+    <script src="search/search.js"></script>
+    <script src="map/map.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+        if (screen.width <= 767) {
+            window.location = "index_mobile.html";
+        }
+    </script>
+</body>
+
+</html>
