@@ -2,182 +2,182 @@ const BIZS = [
     {
         id: 1,
         position: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
-        name: '고품격커피공장 서일점',
-        division: '송림본당',
-        img: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210129_48%2F1611890671329AA2iU_GIF%2Funnamed.gif',
-        pastor: '이찬수',
-        address: '경기도 성남시 분당구 이매로 100 송림중고등학교 내 강당'
+        industry: '양식',
+        name: '톨리브',
+        item: '이태리식당',
+        address: '서울 서초구 서초중앙로24길 9 (서초동) 신우빌딩',
+        phone: '0507-1393-0044'
     },
     {
         id: 2,
         position: new naver.maps.LatLng(37.385095301113125, 127.11948028227279),
-        name: '분당우리교회',
-        division: '드림센터',
-        img: 'https://pds.joins.com/news/component/htmlphoto_mmdata/201912/24/8152a544-0640-4f25-8589-9b484b6d01ac.jpg',
-        pastor: '이찬수',
-        address: '경기도 성남시 분당구 황새울로 311번길 9'
+        industry: '커피/음료',
+        name: '안암카페더보일',
+        item: '',
+        address: '서울 성북구 고려대로28길 17-3 해랑빌딩 1층',
+        phone: '010-2679-2784'
     },
     {
         id: 3,
         position: new naver.maps.LatLng(37.616232324895606, 126.71553679454613),
-        name: '1 교구 교회',
-        division: '1교구',
-        img: 'static/img/신종철.png',
-        pastor: '신종철',
-        address: '경기 서북부(김포시, 고양시, 파주시)'
+        industry: '한식',
+        name: '제육을 논하다',
+        item: '',
+        address: '서울시 광진구 구의동 244-50 올바른주방 9호',
+        phone: '02-456-5106'
     },
     {
         id: 4,
         position: new naver.maps.LatLng(37.532133640470555, 126.98027825016551),
-        name: '2 교구 교회',
-        division: '2교구',
-        img: 'static/img/정광용.png',
-        pastor: '정광용',
-        address: '서울 1(마포구, 서대문구, 용산구, 은평구, 종로구, 중구)'
+        industry: '한식',
+        name: '천년학이 우렁 먹는 날',
+        item: '추어탕, 쌈밥',
+        address: '서울시 서초구 서초대로25길 54',
+        phone: '02-583-2348'
     },
     {
         id: 5,
         position: new naver.maps.LatLng(37.82452463915741, 127.44899770595332),
-        name: '3 교구 교회',
-        division: '3교구',
-        img: 'static/img/김용신.png',
-        pastor: '김용신',
-        address: '서울 2 / 경기 북동부(동대문구, 성동구, 강북구, 광진구, 노원구, 도봉구, 성북구, 중랑구, 가평군, 구리시, 남양주시, 양주시, 의정부시)'
+        industry: '커피/음료',
+        name: '메가mgc커피 대치학원가점',
+        item: '',
+        address: '서울특별시 강남구 도곡로 77길 6 102호',
+        phone: '02-6747-7070'
     },
     {
         id: 6,
         position: new naver.maps.LatLng(37.52244725446933, 126.90920397238646),
-        name: '4 교구 교회',
-        division: '4교구',
-        img: 'static/img/김단일.png',
-        pastor: '김단일',
-        address: '서울 3(서초구, 동작구, 관악구, 강서구, 구로구, 금천구, 양천구, 영등포구)'
+        industry: '한식',
+        name: '계경순대국',
+        item: '',
+        address: '서울특별시 강남구 밤고개로1길 10(수서역벤처빌점)',
+        phone: '02-2040-7898'
     },
     {
         id: 7,
         position: new naver.maps.LatLng(37.49731081920644, 127.06449696083372),
-        name: '5 교구 교회',
-        division: '5교구',
-        img: 'static/img/유병휘.png',
-        pastor: '유병휘',
-        address: '서울 4(강남구)'
+        industry: '일식',
+        name: '사누끼제면소',
+        item: '',
+        address: '서울특별시 강남구 역삼동 817',
+        phone: '02-501-4267'
     },
     {
         id: 8,
         position: new naver.maps.LatLng(37.50465828900087, 127.11514233482994),
-        name: '6 교구 교회',
-        division: '6교구',
-        img: 'static/img/김성진.png',
-        pastor: '김성진',
-        address: '서울 5(송파구, 강동구)'
+        industry: '일식',
+        name: '그우동집',
+        item: '',
+        address: '서울특별시 강남구 역삼로7길7 1층 (대표자:이경균)',
+        phone: '02-553-0908'
     },
     {
         id: 9,
         position: new naver.maps.LatLng(37.50560426406749, 126.78740095393402),
-        name: '7 교구 교회',
-        division: '7교구',
-        img: 'static/img/박삼열.png',
-        pastor: '박삼열',
-        address: '경기 서부(인천시, 부천시, 시흥시)'
+        industry: '커피/음료',
+        name: '파머스빈',
+        item: '',
+        address: '서울특별시 강남구 테헤란로 313 성지하이츠 1층 114호',
+        phone: '02-556-7260'
     },
     {
         id: 10,
         position: new naver.maps.LatLng(37.32279769636419, 126.82401342108861),
-        name: '8 교구 교회',
-        division: '8교구',
-        img: 'static/img/조정환.png',
-        pastor: '조정환',
-        address: '경기 중부(안양시, 과천시, 의왕시, 군포시, 광명시, 안산시)'
+        industry: '기타',
+        name: '포시애틀 (강남직영점)',
+        item: '베트남 쌀국수 및 베트남 식당 프랜차이즈 사업',
+        address: '서울특별시 강남구 테헤란로4길 46 쌍용플래티넘밸류 B119호',
+        phone: '02-501-4414 / 010-2675-8299'
     },
     {
         id: 11,
         position: new naver.maps.LatLng(37.47747488065518, 127.14592965569439),
-        name: '9 교구 교회',
-        division: '9교구',
-        img: 'static/img/장성민.png',
-        pastor: '장성민',
-        address: '위례(위례, 송파, 수정, 하남)'
+        industry: '한식',
+        name: '큰맘할매순대국',
+        item: '',
+        address: '서울특별시 강동구 성내로 16 (성내동 동해빌딩)',
+        phone: '02-477-0504'
     },
     {
         id: 12,
         position: new naver.maps.LatLng(37.548155733455715, 127.21119274619608),
-        name: '10 교구 교회',
-        division: '10교구',
-        img: 'static/img/이진우.png',
-        pastor: '이진우',
-        address: '경기 동부(하남시, 양평군)'
+        industry: '커피/음료',
+        name: '바내',
+        item: '',
+        address: '서울특별시 강동구 풍성로63길 79, 101호',
+        phone: '02-6408-2580'
     },
     {
         id: 13,
         position: new naver.maps.LatLng(37.43620269214977, 127.1018733164468),
-        name: '11 교구 교회',
-        division: '11교구',
-        img: 'static/img/주은석.png',
-        pastor: '주은석',
-        address: '성남 1(수정구)'
+        industry: '일식',
+        name: '소풍',
+        item: '',
+        address: '서울특별시 광진구 광장동 257-4번지 1층',
+        phone: '02-444-5693'
     },
     {
         id: 14,
         position: new naver.maps.LatLng(37.43306604600031, 127.16305052949178),
-        name: '12 교구 교회',
-        division: '12교구',
-        img: 'static/img/이광희.png',
-        pastor: '이광희',
-        address: '성남 2(중원구)'
+        industry: '커피/음료',
+        name: '카페 문앤도어',
+        item: '',
+        address: '서울특별시 광진구 천호대로127길 42-2 1층',
+        phone: '010-7928-6704'
     },
     {
         id: 15,
         position: new naver.maps.LatLng(37.401412322079764, 127.1082615317764),
-        name: '13 교구 교회',
-        division: '13교구',
-        img: 'static/img/박재진.png',
-        pastor: '박재진',
-        address: '분당 1(야탑1, 2동, 이매2동, 삼평동)'
+        industry: '일식',
+        name: '초밥앤알밥',
+        item: '',
+        address: '서울특별시 구로구 새말로 97 테크노마트 지하1 푸드코트 28호',
+        phone: '02-2111-1628'
     },
     {
         id: 16,
         position: new naver.maps.LatLng(37.410853350314135, 127.13826481358821),
-        name: '14 교구 교회',
-        division: '14교구',
-        img: 'static/img/정재환.png',
-        pastor: '정재환',
-        address: '분당 2(이매1동, 야탑3동)'
+        industry: '일식',
+        name: '최고당 돈가스',
+        item: '',
+        address: '서울특별시 남부순환로 269길 16',
+        phone: '02-522-8818'
     },
     {
         id: 17,
         position: new naver.maps.LatLng(37.382974421520004, 127.12607346908385),
-        name: '15 교구 교회',
-        division: '15교구',
-        img: 'static/img/김인용.png',
-        pastor: '김인용',
-        address: '분당 3(서현1동, 수내1, 2동)'
+        industry: '기타',
+        name: '고루모도시락',
+        item: '도시락',
+        address: '서울특별시 도봉구 도봉로109길 40, 1층',
+        phone: '02-999-8300'
     },
     {
         id: 18,
         position: new naver.maps.LatLng(37.37612887763261, 127.134713910288),
-        name: '16 교구 교회',
-        division: '16교구',
-        img: 'static/img/최정권.png',
-        pastor: '최정권',
-        address: '분당 4(분당동, 서현2동, 정자2동, 수내3동)'
+        industry: '패스트푸드',
+        name: '샐러드박스',
+        item: '패스트푸드',
+        address: '서울특별시 동작구 만양로 3, 1층',
+        phone: '02-815-6337'
     },
     {
         id: 19,
         position: new naver.maps.LatLng(37.36432949402776, 127.1167958424504),
-        name: '17 교구 교회',
-        division: '17교구',
-        img: 'static/img/박현교.png',
-        pastor: '박현교',
-        address: '분당 5(정자동, 정자1, 3동, 구미동)'
+        industry: '제과점',
+        name: '예솜 푸드 서비스',
+        item: '푸드',
+        address: '서울특별시 서초구 바우뫼로 6길 8-4 태성빌딩 예솜푸드',
+        phone: '010-3630-9185'
     },
     {
         id: 20,
         position: new naver.maps.LatLng(37.38409656991021, 127.07587197221969),
-        name: '18 교구 교회',
-        division: '18교구',
-        img: 'static/img/박민근.png',
-        pastor: '박민근',
-        address: '분당 6(백현동, 판교동, 운중동, 하산운동, 금곡동, 궁내동, 대장동, 동원동)'
+        industry: '커피/음료',
+        name: '고품격커피공장 서일점',
+        item: '',
+        address: '서울특별시 서초구 효령로68길 66 101호',
+        phone: '02-6104-2123'
     },
     {
         id: 21,
