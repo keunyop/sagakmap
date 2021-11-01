@@ -1,38 +1,38 @@
-BIZS.forEach(church => {
-    // 교회 이름
-    var churchName = document.createElement("h5");
-    churchName.setAttribute("class", "mb-1");
-    churchName.appendChild(document.createTextNode(church.name));
+BIZS.forEach(biz => {
+    // 상호명
+    var bizName = document.createElement("h5");
+    bizName.setAttribute("class", "mb-1");
+    bizName.appendChild(document.createTextNode(biz.name));
 
-    // 교구
-    var division = document.createElement("small");
-    division.appendChild(document.createTextNode(church.division));
+    // 업종
+    var industry = document.createElement("small");
+    industry.appendChild(document.createTextNode(biz.industry));
 
     // 주소
     var address = document.createElement("p");
     address.setAttribute("class", "mb-1");
-    address.appendChild(document.createTextNode(church.address));
+    address.appendChild(document.createTextNode(biz.address));
 
-    // 담임목사
-    var pastorName = document.createElement("small");
-    pastorName.setAttribute("class", "text-muted");
-    pastorName.appendChild(document.createTextNode("담임목사:" + church.pastor));
+    // 전화번호
+    var phoneNumber = document.createElement("small");
+    phoneNumber.setAttribute("class", "text-muted");
+    phoneNumber.appendChild(document.createTextNode(biz.phone));
 
 
     var div = document.createElement("div");
     div.setAttribute("class", "d-flex w-100 justify-content-between");
-    div.appendChild(churchName);
-    div.appendChild(division);
+    div.appendChild(bizName);
+    div.appendChild(industry);
 
     var a = document.createElement("a");
     a.setAttribute("class", "list-group-item list-group-item-action flex-column align-items-start");
-    if (church.id == 1) a.classList.add('active');
-    a.setAttribute("id", "churchlist-church" + church.id);
-    a.setAttribute("onclick", "onClick_churchList(" + church.id + ");");
+    if (biz.id == 1) a.classList.add('active');
+    a.setAttribute("id", "churchlist-church" + biz.id);
+    a.setAttribute("onclick", "onClick_churchList(" + biz.id + ");");
     a.setAttribute("href", "#");
     a.appendChild(div);
     a.appendChild(address);
-    a.appendChild(pastorName);
+    a.appendChild(phoneNumber);
 
     document.getElementById("biz-list").appendChild(a);
 });
