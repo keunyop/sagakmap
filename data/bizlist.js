@@ -2,7 +2,7 @@
 const BIZS = [
     {
         id: 1,
-        position: new naver.maps.LatLng(37.39234762613166, 127.13087848124754),
+        position: new naver.maps.LatLng(37.485734361088795, 127.02129486693141),
         type: 'restaurant',
         industry: '커피/음료',
         name: '고품격커피공장 서일점',
@@ -12,7 +12,7 @@ const BIZS = [
     },
     {
         id: 2,
-        position: new naver.maps.LatLng(37.385095301113125, 127.11948028227279),
+        position: new naver.maps.LatLng(37.59429976931268, 127.01699564723774),
         type: 'restaurant',
         industry: '커피/음료',
         name: '안암카페더보일',
@@ -22,7 +22,7 @@ const BIZS = [
     },
     {
         id: 3,
-        position: new naver.maps.LatLng(37.616232324895606, 126.71553679454613),
+        position: new naver.maps.LatLng(37.53864963235178, 127.08933897939224),
         type: 'restaurant',
         industry: '한식',
         name: '제육을 논하다',
@@ -32,7 +32,7 @@ const BIZS = [
     },
     {
         id: 4,
-        position: new naver.maps.LatLng(37.532133640470555, 126.98027825016551),
+        position: new naver.maps.LatLng(37.49096276221008, 126.99316307936884),
         type: 'restaurant',
         industry: '한식',
         name: '천년학이 우렁 먹는 날',
@@ -42,7 +42,7 @@ const BIZS = [
     },
     {
         id: 5,
-        position: new naver.maps.LatLng(37.82452463915741, 127.44899770595332),
+        position: new naver.maps.LatLng(37.49949912201403, 127.05906258678979),
         type: 'restaurant',
         industry: '커피/음료',
         name: '메가mgc커피 대치학원가점',
@@ -52,7 +52,7 @@ const BIZS = [
     },
     {
         id: 6,
-        position: new naver.maps.LatLng(37.52244725446933, 126.90920397238646),
+        position: new naver.maps.LatLng(37.488833349229765, 127.10137663333195),
         type: 'restaurant',
         industry: '한식',
         name: '계경순대국',
@@ -62,7 +62,7 @@ const BIZS = [
     },
     {
         id: 7,
-        position: new naver.maps.LatLng(37.49731081920644, 127.06449696083372),
+        position: new naver.maps.LatLng(37.5012564043807, 127.02746559471913),
         type: 'restaurant',
         industry: '일식',
         name: '사누끼제면소',
@@ -72,7 +72,7 @@ const BIZS = [
     },
     {
         id: 8,
-        position: new naver.maps.LatLng(37.50465828900087, 127.11514233482994),
+        position: new naver.maps.LatLng(37.49512806671499, 127.03304367937092),
         type: 'restaurant',
         industry: '일식',
         name: '그우동집',
@@ -82,7 +82,7 @@ const BIZS = [
     },
     {
         id: 9,
-        position: new naver.maps.LatLng(37.50560426406749, 126.78740095393402),
+        position: new naver.maps.LatLng(37.50451887164191, 127.04505581799441),
         type: 'restaurant',
         industry: '커피/음료',
         name: '파머스빈',
@@ -92,7 +92,7 @@ const BIZS = [
     },
     {
         id: 10,
-        position: new naver.maps.LatLng(37.32279769636419, 126.82401342108861),
+        position: new naver.maps.LatLng(37.49596131077952, 127.03042157540713),
         type: 'restaurant',
         industry: '기타',
         name: '포시애틀 (강남직영점)',
@@ -102,7 +102,7 @@ const BIZS = [
     },
     {
         id: 11,
-        position: new naver.maps.LatLng(37.47747488065518, 127.14592965569439),
+        position: new naver.maps.LatLng(37.530682309004426, 127.12245754076922),
         type: 'restaurant',
         industry: '한식',
         name: '큰맘할매순대국',
@@ -112,7 +112,7 @@ const BIZS = [
     },
     {
         id: 12,
-        position: new naver.maps.LatLng(37.548155733455715, 127.21119274619608),
+        position: new naver.maps.LatLng(37.53220519789523, 127.13990137938899),
         type: 'restaurant',
         industry: '커피/음료',
         name: '바내',
@@ -122,7 +122,7 @@ const BIZS = [
     },
     {
         id: 13,
-        position: new naver.maps.LatLng(37.43620269214977, 127.1018733164468),
+        position: new naver.maps.LatLng(37.54809366364975, 127.10360807197969),
         type: 'restaurant',
         industry: '일식',
         name: '소풍',
@@ -132,7 +132,7 @@ const BIZS = [
     },
     {
         id: 14,
-        position: new naver.maps.LatLng(37.43306604600031, 127.16305052949178),
+        position: new naver.maps.LatLng(37.554969787359326, 127.09083136405474),
         type: 'restaurant',
         industry: '커피/음료',
         name: '카페 문앤도어',
@@ -142,7 +142,7 @@ const BIZS = [
     },
     {
         id: 15,
-        position: new naver.maps.LatLng(37.401412322079764, 127.1082615317764),
+        position: new naver.maps.LatLng(37.50712030505318, 126.89089650213889),
         type: 'restaurant',
         industry: '일식',
         name: '초밥앤알밥',
@@ -152,7 +152,7 @@ const BIZS = [
     },
     {
         id: 16,
-        position: new naver.maps.LatLng(37.410853350314135, 127.13826481358821),
+        position: new naver.maps.LatLng(37.47816027876006, 126.97849934074367),
         type: 'restaurant',
         industry: '일식',
         name: '최고당 돈가스',
@@ -162,7 +162,7 @@ const BIZS = [
     },
     {
         id: 17,
-        position: new naver.maps.LatLng(37.382974421520004, 127.12607346908385),
+        position: new naver.maps.LatLng(37.647807351497406, 127.03102543340948),
         type: 'restaurant',
         industry: '기타',
         name: '고루모도시락',
@@ -172,7 +172,7 @@ const BIZS = [
     },
     {
         id: 18,
-        position: new naver.maps.LatLng(37.37612887763261, 127.134713910288),
+        position: new naver.maps.LatLng(37.50596285715073, 126.94629561799512),
         type: 'restaurant',
         industry: '패스트푸드',
         name: '샐러드박스',
@@ -182,7 +182,7 @@ const BIZS = [
     },
     {
         id: 19,
-        position: new naver.maps.LatLng(37.36432949402776, 127.1167958424504),
+        position: new naver.maps.LatLng(37.470348238585224, 127.0254228140137),
         type: 'restaurant',
         industry: '제과점',
         name: '예솜 푸드 서비스',
@@ -192,7 +192,7 @@ const BIZS = [
     },
     {
         id: 20,
-        position: new naver.maps.LatLng(37.38409656991021, 127.07587197221969),
+        position: new naver.maps.LatLng(37.495635458939006, 127.01473827937106),
         type: 'restaurant',
         industry: '양식',
         name: '톨리브',
