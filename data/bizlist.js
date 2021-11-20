@@ -202,7 +202,7 @@ const BIZS = [
     },
     {
         id: 21,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.542136420551365, 127.04941264054045),
         type: 'restaurant',
         industry: '커피/음료',
         name: 'Naked Coffee',
@@ -212,7 +212,7 @@ const BIZS = [
     },
     {
         id: 22,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.547265560587014, 127.04524216382609),
         type: 'restaurant',
         industry: '커피/음료',
         name: '타미하우스',
@@ -222,7 +222,7 @@ const BIZS = [
     },
     {
         id: 23,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.61338996303047, 127.06454770248446),
         type: 'restaurant',
         industry: '한식',
         name: '김과장고깃집석계점',
@@ -232,7 +232,7 @@ const BIZS = [
     },
     {
         id: 24,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.50298423945648, 127.11060360243094),
         type: 'restaurant',
         industry: '기타',
         name: '반찬장이',
@@ -242,7 +242,7 @@ const BIZS = [
     },
     {
         id: 25,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.489286166197886, 127.12423273311116),
         type: 'restaurant',
         industry: '치킨',
         name: 'BBQ 문정점',
@@ -252,7 +252,7 @@ const BIZS = [
     },
     {
         id: 26,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.50583688884634, 127.09042555586635),
         type: 'restaurant',
         industry: '양식',
         name: '임실치즈피자 잠실점',
@@ -262,7 +262,7 @@ const BIZS = [
     },
     {
         id: 27,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.49877580777516, 127.10663954845893),
         type: 'restaurant',
         industry: '양식',
         name: '토브피자 화덕피자',
@@ -272,7 +272,7 @@ const BIZS = [
     },
     {
         id: 28,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.49853823402682, 127.1079948717421),
         type: 'restaurant',
         industry: '한식',
         name: '수하동 헬리오시티점',
@@ -282,7 +282,7 @@ const BIZS = [
     },
     {
         id: 29,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.497526497917406, 127.14687912517552),
         type: 'restaurant',
         industry: '커피/음료',
         name: '단백한하루',
@@ -292,7 +292,7 @@ const BIZS = [
     },
     {
         id: 30,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.514091351216976, 127.10424689449673),
         type: 'restaurant',
         industry: '한식',
         name: '곰국시집',
@@ -302,7 +302,7 @@ const BIZS = [
     },
     {
         id: 31,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.512017436703104, 127.09811319449565),
         type: 'restaurant',
         industry: '분식',
         name: '리김밥',
@@ -312,7 +312,7 @@ const BIZS = [
     },
     {
         id: 32,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.472597118690416, 127.14673126716117),
         type: 'restaurant',
         industry: '치킨',
         name: '깐부치킨 위례중앙점',
@@ -322,7 +322,7 @@ const BIZS = [
     },
     {
         id: 33,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.56714925783348, 126.9973709945224),
         type: 'restaurant',
         industry: '일식',
         name: '고레카레',
@@ -332,7 +332,7 @@ const BIZS = [
     },
     {
         id: 34,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.566008152561864, 127.01762454849171),
         type: 'restaurant',
         industry: '제과점',
         name: '로드리카페',
@@ -342,7 +342,7 @@ const BIZS = [
     },
     {
         id: 35,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.386379157717826, 127.1288329558085),
         type: 'restaurant',
         industry: '한식',
         name: '노아노아',
@@ -352,7 +352,7 @@ const BIZS = [
     },
     {
         id: 36,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37223589003904, 127.10640480977148),
         type: 'restaurant',
         industry: '치킨',
         name: '매드후라이치킨 정자점',
@@ -362,7 +362,7 @@ const BIZS = [
     },
     {
         id: 37,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.446491980250315, 127.1271747484338),
         type: 'restaurant',
         industry: '기타',
         name: '플로렌스 파티하우스 가천대역점',
@@ -372,7 +372,7 @@ const BIZS = [
     },
     {
         id: 38,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38479606905116, 126.85532541771707),
         type: 'restaurant',
         industry: '제과점',
         name: '효원당',
@@ -382,7 +382,7 @@ const BIZS = [
     },
     {
         id: 39,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.277262001591865, 127.15174600232203),
         type: 'restaurant',
         industry: '한식',
         name: '더 한점',
@@ -392,7 +392,7 @@ const BIZS = [
     },
     {
         id: 40,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.321372718281204, 127.11282135631306),
         type: 'restaurant',
         industry: '커피/음료',
         name: '컴포즈커피 용인보정점',
@@ -402,7 +402,7 @@ const BIZS = [
     },
     {
         id: 41,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.327415899524354, 127.10092240974976),
         type: 'restaurant',
         industry: '커피/음료',
         name: '더크라운커피랩',
@@ -412,7 +412,7 @@ const BIZS = [
     },
     {
         id: 42,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.71148438549098, 127.48191717924917),
         type: 'restaurant',
         industry: '커피/음료',
         name: '코리달리스카페',
@@ -422,7 +422,7 @@ const BIZS = [
     },
     {
         id: 43,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.4576028075656, 127.21399672515626),
         type: 'restaurant',
         industry: '커피/음료',
         name: '선데이커피(핸드드립커피 전문점)',
@@ -432,7 +432,7 @@ const BIZS = [
     },
     {
         id: 44,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.40954302215082, 127.248440871699),
         type: 'restaurant',
         industry: '커피/음료',
         name: '로스트 어 파운드',
@@ -442,7 +442,7 @@ const BIZS = [
     },
     {
         id: 45,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.339001052141235, 127.3211841023516),
         type: 'restaurant',
         industry: '한식',
         name: '사래골김치찌개집',
@@ -452,7 +452,7 @@ const BIZS = [
     },
     {
         id: 46,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36085370944199, 127.1615594637358),
         type: 'restaurant',
         industry: '한식',
         name: '족보있는 국밥',
@@ -462,7 +462,7 @@ const BIZS = [
     },
     {
         id: 47,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36062484426836, 127.14720869442245),
         type: 'restaurant',
         industry: '한식',
         name: '채선당',
@@ -472,7 +472,7 @@ const BIZS = [
     },
     {
         id: 48,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36130539441856, 127.15528102510962),
         type: 'restaurant',
         industry: '분식',
         name: '김마리 ',
@@ -482,7 +482,7 @@ const BIZS = [
     },
     {
         id: 49,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.387243842862794, 127.2340695637485),
         type: 'restaurant',
         industry: '기타',
         name: '하루만족발',
@@ -492,7 +492,7 @@ const BIZS = [
     },
     {
         id: 50,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38647295694968, 127.23379303306146),
         type: 'restaurant',
         industry: '일식',
         name: '쿄와스시',
@@ -502,7 +502,7 @@ const BIZS = [
     },
     {
         id: 51,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37154192920369, 127.12189683702414),
         type: 'restaurant',
         industry: '기타',
         name: '돌고래반찬',
@@ -512,7 +512,7 @@ const BIZS = [
     },
     {
         id: 52,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36389202935824, 127.12168743702091),
         type: 'restaurant',
         industry: '커피/음료',
         name: 'cafe415',
@@ -522,7 +522,7 @@ const BIZS = [
     },
     {
         id: 53,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.372325816813486, 127.11555417168091),
         type: 'restaurant',
         industry: '한식',
         name: '키친두레',
@@ -532,7 +532,7 @@ const BIZS = [
     },
     {
         id: 54,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36617898113531, 127.11539122511188),
         type: 'restaurant',
         industry: '제과점',
         name: '달보드레',
@@ -542,7 +542,7 @@ const BIZS = [
     },
     {
         id: 55,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.3708248008815, 127.12302456127621),
         type: 'restaurant',
         industry: '분식',
         name: '정스깁밥',
@@ -552,7 +552,7 @@ const BIZS = [
     },
     {
         id: 56,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.34027179520332, 127.12245920975606),
         type: 'restaurant',
         industry: '한식',
         name: '하늘선',
@@ -562,7 +562,7 @@ const BIZS = [
     },
     {
         id: 57,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.3524992366165, 127.10542534098464),
         type: 'restaurant',
         industry: '한식',
         name: '오늘하루',
@@ -572,17 +572,17 @@ const BIZS = [
     },
     {
         id: 58,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37615734512455, 127.11986252511683),
         type: 'restaurant',
         industry: '제과점',
-        name: '희동 아뜰리에 ',
+        name: '희동아뜰리에',
         item: '쿠키전문점',
         address: '경기도 성남시 분당구 내정로165번길 38 양지마을 청구문화시장 2층 213호 희동아뜰리에쿠키',
         phone: '070-8972-1803'
     },
     {
         id: 59,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.371457318254905, 127.12192464839762),
         type: 'restaurant',
         industry: '일식',
         name: '호호초밥, 카츠젠',
@@ -592,7 +592,7 @@ const BIZS = [
     },
     {
         id: 60,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37092313339829, 127.102004879084),
         type: 'restaurant',
         industry: '한식',
         name: 'M가마솥설렁탕',
@@ -602,7 +602,7 @@ const BIZS = [
     },
     {
         id: 61,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39759139020496, 127.11567270978384),
         type: 'restaurant',
         industry: '기타',
         name: '데일리쿡',
@@ -612,7 +612,7 @@ const BIZS = [
     },
     {
         id: 62,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.387939843285764, 127.11504617909235),
         type: 'restaurant',
         industry: '커피/음료',
         name: '무궁화파이브',
@@ -622,7 +622,7 @@ const BIZS = [
     },
     {
         id: 63,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39679091841602, 127.11368784047029),
         type: 'restaurant',
         industry: '양식',
         name: '비앙또아',
@@ -632,7 +632,7 @@ const BIZS = [
     },
     {
         id: 64,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39856672562807, 127.11345453306726),
         type: 'restaurant',
         industry: '한식',
         name: '양바위 본점',
@@ -642,7 +642,7 @@ const BIZS = [
     },
     {
         id: 65,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.384500872995844, 127.15165665580744),
         type: 'restaurant',
         industry: '한식',
         name: '이원희맛집직화쌈밥',
@@ -652,7 +652,7 @@ const BIZS = [
     },
     {
         id: 66,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.34938523409287, 127.10736753304371),
         type: 'restaurant',
         industry: '분식',
         name: '석관동떡볶이 NC 미금점',
@@ -662,7 +662,7 @@ const BIZS = [
     },
     {
         id: 67,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.364257284575125, 127.12779350236389),
         type: 'restaurant',
         industry: '양식',
         name: '라라테이블',
@@ -672,7 +672,7 @@ const BIZS = [
     },
     {
         id: 68,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37745753388805, 127.1114116790873),
         type: 'restaurant',
         industry: '기타',
         name: '예봄떡방',
@@ -682,7 +682,7 @@ const BIZS = [
     },
     {
         id: 69,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39475464866966, 127.11207056375227),
         type: 'restaurant',
         industry: '한식',
         name: '푸에르코 | 하누마루',
@@ -692,7 +692,7 @@ const BIZS = [
     },
     {
         id: 70,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38464397192752, 127.1218846864945),
         type: 'restaurant',
         industry: '한식',
         name: '채선당',
@@ -702,7 +702,7 @@ const BIZS = [
     },
     {
         id: 71,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36025255954569, 127.12296006373545),
         type: 'restaurant',
         industry: '커피/음료',
         name: '카페써밋',
@@ -712,7 +712,7 @@ const BIZS = [
     },
     {
         id: 72,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37383827473507, 127.13794270236852),
         type: 'restaurant',
         industry: '기타',
         name: '소미당',
@@ -722,7 +722,7 @@ const BIZS = [
     },
     {
         id: 73,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.388329332761565, 127.15477196374904),
         type: 'restaurant',
         industry: '커피/음료',
         name: '로스팅하우스137',
@@ -732,7 +732,7 @@ const BIZS = [
     },
     {
         id: 74,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38788844700066, 127.12246076374895),
         type: 'restaurant',
         industry: '커피/음료',
         name: '19티',
@@ -742,7 +742,7 @@ const BIZS = [
     },
     {
         id: 75,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38577095837235, 127.12886873306101),
         type: 'restaurant',
         industry: '한식',
         name: '망향국수(분당점)',
@@ -752,7 +752,7 @@ const BIZS = [
     },
     {
         id: 76,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.386345955258115, 127.13030820237458),
         type: 'restaurant',
         industry: '양식',
         name: '카페 라온',
@@ -762,7 +762,7 @@ const BIZS = [
     },
     {
         id: 77,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.41187279882044, 127.13002252513402),
         type: 'restaurant',
         industry: '커피/음료',
         name: '카페마로네',
@@ -772,7 +772,7 @@ const BIZS = [
     },
     {
         id: 78,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36566188701335, 127.10794075579841),
         type: 'restaurant',
         industry: '한식',
         name: '쭈락',
@@ -782,7 +782,7 @@ const BIZS = [
     },
     {
         id: 79,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38097790653944, 127.13255397908893),
         type: 'restaurant',
         industry: '분식',
         name: '김마리 정자점',
@@ -792,17 +792,17 @@ const BIZS = [
     },
     {
         id: 80,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.41247920821954, 127.12650560979104),
         type: 'restaurant',
         industry: '분식',
         name: '김밥마니아야탑본점 ',
         item: '',
-        address: '경기도 성남시 분당구 성남대로925번길19 터미널프라자108호 ',
+        address: '경기도 성남시 분당구 성남대로925번길19 터미널프라자108호',
         phone: '010-5205-7130 '
     },
     {
         id: 81,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.41567655739543, 126.9535388343083),
         type: 'restaurant',
         industry: '분식',
         name: '김밥연구소우리',
@@ -812,7 +812,7 @@ const BIZS = [
     },
     {
         id: 82,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.3751957451616, 127.11799921771268),
         type: 'restaurant',
         industry: '분식',
         name: '야옹제면소',
@@ -822,7 +822,7 @@ const BIZS = [
     },
     {
         id: 83,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.371888739343525, 127.12222387908444),
         type: 'restaurant',
         industry: '분식',
         name: '돌고래손칼국수',
@@ -832,17 +832,17 @@ const BIZS = [
     },
     {
         id: 84,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.410954344287326, 127.12801030238647),
         type: 'restaurant',
         industry: '커피/음료',
         name: '커피컵',
         item: '',
-        address: '경기도 성남시 분당구 야탑동 358-2 분당 아미고타워 지하 1층 ',
+        address: '경기도 성남시 분당구 야탑동 358-2 분당 아미고타워 지하 1층',
         phone: '010-8531-6448'
     },
     {
         id: 85,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39284799313535, 127.12706750978143),
         type: 'restaurant',
         industry: '치킨',
         name: '와그너치킨 ',
@@ -852,7 +852,7 @@ const BIZS = [
     },
     {
         id: 86,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39246030051567, 127.1252028330643),
         type: 'restaurant',
         industry: '커피/음료',
         name: '째즈고양이카페',
@@ -862,7 +862,7 @@ const BIZS = [
     },
     {
         id: 87,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.3915139898866, 127.12681382512413),
         type: 'restaurant',
         industry: '커피/음료',
         name: '아파트먼트커피',
@@ -872,7 +872,7 @@ const BIZS = [
     },
     {
         id: 88,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39267751379318, 127.12698167909465),
         type: 'restaurant',
         industry: '분식',
         name: '우리집김밥',
@@ -882,7 +882,7 @@ const BIZS = [
     },
     {
         id: 89,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.48264303426043, 127.04422665585501),
         type: 'restaurant',
         industry: '커피/음료',
         name: '아티크',
@@ -892,7 +892,7 @@ const BIZS = [
     },
     {
         id: 90,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39196679129374, 127.09035800237724),
         type: 'restaurant',
         industry: '커피/음료',
         name: '노란코끼리 판교점',
@@ -902,7 +902,7 @@ const BIZS = [
     },
     {
         id: 91,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.39662511042039, 127.12166355075173),
         type: 'restaurant',
         industry: '기타',
         name: '떡 마을',
@@ -912,17 +912,17 @@ const BIZS = [
     },
     {
         id: 92,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.393608856910696, 127.13301859443831),
         type: 'restaurant',
         industry: '커피/음료',
         name: '우리카페',
         item: '',
-        address: '경기도 성남시 분당구 이매로 113 EMC골프장1층 ',
+        address: '경기도 성남시 분당구 이매로 113 EMC골프장1층',
         phone: '031-705-2918'
     },
     {
         id: 93,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36178534884204, 127.11057850236276),
         type: 'restaurant',
         industry: '제과점',
         name: '자매공작소',
@@ -932,7 +932,7 @@ const BIZS = [
     },
     {
         id: 94,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36248819411282, 127.10630042511032),
         type: 'restaurant',
         industry: '한식',
         name: '하누비노 정자점',
@@ -942,7 +942,7 @@ const BIZS = [
     },
     {
         id: 95,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36305856798562, 127.10665287114062),
         type: 'restaurant',
         industry: '한식',
         name: '양바위 정자점',
@@ -952,17 +952,17 @@ const BIZS = [
     },
     {
         id: 96,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36360402540005, 127.10652411770708),
         type: 'restaurant',
         industry: '중식',
-        name: '블루 샹하이',
+        name: '37.36305856798562, 127.10665287114062',
         item: '',
         address: '경기도 성남시 분당구 정자일로 197',
         phone: '031-715-1277'
     },
     {
         id: 97,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36509446465818, 127.10634527908104),
         type: 'restaurant',
         industry: '한식',
         name: '양우정 본점',
@@ -972,7 +972,7 @@ const BIZS = [
     },
     {
         id: 98,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.36961621505771, 127.10660410977022),
         type: 'restaurant',
         industry: '한식',
         name: '봄날의청국장',
@@ -982,7 +982,7 @@ const BIZS = [
     },
     {
         id: 99,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.37028013451299, 127.10531517167999),
         type: 'restaurant',
         industry: '한식',
         name: '육블럭',
@@ -992,7 +992,7 @@ const BIZS = [
     },
     {
         id: 100,
-        position: new naver.maps.LatLng(0, 0),
+        position: new naver.maps.LatLng(37.38442507363059, 127.1248815097774),
         type: 'restaurant',
         industry: '일식',
         name: '노군꼬치 서현점',
