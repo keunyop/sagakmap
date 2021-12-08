@@ -2251,637 +2251,637 @@ const BIZS = [
     },
 
     {
-        id: 237, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '하나건축사사무소', item: '건축설계',
+        id: 237, position: new naver.maps.LatLng(37.503659806319156, 127.0101267179941), type: 'service', industry: '건축/인테리어/디자인', name: '하나건축사사무소', item: '건축설계',
         address: '서울특별시 서초구 고무래로 16 3층', phone: '02-533-3633'
     },
 
     {
-        id: 238, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '엠에이치에스특허', item: '변리사업',
+        id: 238, position: new naver.maps.LatLng(37.48041108841976, 127.03891183332806), type: 'service', industry: '법률/상담', name: '엠에이치에스특허', item: '변리사업',
         address: '서울특별시 서초구 바우뫼로37길 23-6 602호(양재동,  태홍빌딩)', phone: '0505-300-2244(010-9349-0930)'
     },
 
     {
-        id: 239, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '법무법인(유한) 태승', item: '변호사업',
+        id: 239, position: new naver.maps.LatLng(37.493448080344685, 127.0131545719534), type: 'service', industry: '법률/상담', name: '법무법인(유한) 태승', item: '변호사업',
         address: '서울특별시 서초구 서초 중앙로 125 로이어즈타워 1205호', phone: '02-596-1003'
     },
 
     {
-        id: 240, position: new naver.maps.LatLng(), type: 'service', industry: '골프연습장', name: '키덜트골프클럽,버디버디골프클럽(같은주소지)', item: '',
+        id: 240, position: new naver.maps.LatLng(37.483333799777476, 127.00384304867475), type: 'service', industry: '골프연습장', name: '키덜트골프클럽,버디버디골프클럽(같은주소지)', item: '',
         address: '서울특별시 서초구 서초동 남부순환로333길 32 지하', phone: '02-585-9710'
     },
 
     {
-        id: 241, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: 'KEY법률사무소', item: '변호사업',
+        id: 241, position: new naver.maps.LatLng(37.49526141500859, 127.01533037144252), type: 'service', industry: '법률/상담', name: 'KEY법률사무소', item: '변호사업',
         address: '서울특별시 서초구 서초중앙로24길12, 302호', phone: '02-3482-0883'
     },
 
     {
-        id: 242, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '에이드앤 건축설계', item: '건축설계/리모델링',
+        id: 242, position: new naver.maps.LatLng(37.47775321023182, 127.04440767936248), type: 'service', industry: '건축/인테리어/디자인', name: '에이드앤 건축설계', item: '건축설계/리모델링',
         address: '서울특별시 서초구 양재2동 논현로 83 산호물산 a동 1613호', phone: '02-589-1875'
     },
 
     {
-        id: 243, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '(주)건축사사무소 에스아이 ', item: '건축 설계 / 감리 / 인테리어',
+        id: 243, position: new naver.maps.LatLng(37.476273129642394, 127.0429680719449), type: 'service', industry: '건축/인테리어/디자인', name: '(주)건축사사무소 에스아이 ', item: '건축 설계 / 감리 / 인테리어',
         address: '서울특별시 서초구 언남11길 34-2, #403 (양재동, 영동빌딩) http://www.si-arch.com https://blog.naver.com/hanichun', phone: '02-3462-0289, 010-9145-0289'
     },
 
     {
-        id: 244, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: 'SH우면공인중개사사무소', item: '',
+        id: 244, position: new naver.maps.LatLng(37.464280320777625, 127.02560034917711), type: 'service', industry: '부동산중개업', name: 'SH우면공인중개사사무소', item: '',
         address: '서울특별시 서초구 태봉로 2길 65, 상가102호(우면동 서초네이처힐4단지)', phone: '02-577-5770'
     },
 
     {
-        id: 245, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '연세유라인치과', item: '',
+        id: 245, position: new naver.maps.LatLng(37.54913349874231, 127.01972407939716), type: 'service', industry: '병원', name: '연세유라인치과', item: '',
         address: '서울특별시 성동구 장토길 33 2층', phone: '02-2231-2822'
     },
 
     {
-        id: 246, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '에이스부동산', item: '',
+        id: 246, position: new naver.maps.LatLng(37.49531691903478, 127.13142615660905), type: 'service', industry: '부동산중개업', name: '에이스부동산', item: '',
         address: '서울특별시 송파구 동남로 18길 12 1층(가락동)', phone: '02-404-6789'
     },
 
     {
-        id: 247, position: new naver.maps.LatLng(), type: 'service', industry: '독서실/고시원', name: '아카데미라운지 가락독서실(송파)', item: '',
+        id: 247, position: new naver.maps.LatLng(37.496923352881375, 127.1314856560981), type: 'service', industry: '독서실/고시원', name: '아카데미라운지 가락독서실(송파)', item: '',
         address: '서울특별시 송파구 동남로 211 2층 ', phone: '02 409 9998'
     },
 
     {
-        id: 248, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '시온연합의원', item: '피부과',
+        id: 248, position: new naver.maps.LatLng(37.49605760910481, 127.15039577937137), type: 'service', industry: '병원', name: '시온연합의원', item: '피부과',
         address: '서울특별시 송파구 마천로 311', phone: '02-404-7727'
     },
 
     {
-        id: 249, position: new naver.maps.LatLng(), type: 'service', industry: '독서실/고시원', name: '더라이브러리 송파점', item: '스터디 카페',
+        id: 249, position: new naver.maps.LatLng(37.50768071551557, 127.11596118679371), type: 'service', industry: '독서실/고시원', name: '더라이브러리 송파점', item: '스터디 카페',
         address: '서울특별시 송파구 백제고분로 46길43 3층', phone: '070-8866-3966'
     },
 
     {
-        id: 250, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '바라봄헤어', item: '',
+        id: 250, position: new naver.maps.LatLng(37.496191009854236, 127.11967271006196), type: 'service', industry: '미용실', name: '바라봄헤어', item: '',
         address: '서울특별시 송파구 송이로 20길 18', phone: '02- 6417- 3544'
     },
 
     {
-        id: 251, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '이엘세무회계사무소', item: '회계사무소',
+        id: 251, position: new naver.maps.LatLng(37.49390617813127, 127.11893259471556), type: 'service', industry: '법률/상담', name: '이엘세무회계사무소', item: '회계사무소',
         address: '서울특별시 송파구 송파대로 260 1404호(가락동, 제일오피스텔)', phone: '010-9108-7851'
     },
 
     {
-        id: 252, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '피부전공', item: '',
+        id: 252, position: new naver.maps.LatLng(37.49850342814609, 127.10638205661039), type: 'service', industry: '피부관리', name: '피부전공', item: '',
         address: '서울특별시 송파구 송파대로 345 1A B 59호', phone: '010-6541-1523'
     },
 
     {
-        id: 253, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '럭키 공인중개사', item: '',
+        id: 253, position: new naver.maps.LatLng(37.47649257022285, 127.13968176047847), type: 'service', industry: '부동산중개업', name: '럭키 공인중개사', item: '',
         address: '서울특별시 송파구 위례광장로 121 위례 24단지내상가 101-1호', phone: ' 02-406-6363/ 010-4435-8911'
     },
 
     {
-        id: 254, position: new naver.maps.LatLng(), type: 'service', industry: '세탁소', name: '크린토피아 아이파크 1차점', item: '',
+        id: 254, position: new naver.maps.LatLng(37.480771866033365, 127.14392985609018), type: 'service', industry: '세탁소', name: '크린토피아 아이파크 1차점', item: '',
         address: '서울특별시 송파구 위례광장로 136 상가 E동 119호', phone: '02-448-3939'
     },
 
     {
-        id: 255, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '이레공인중개사', item: '',
+        id: 255, position: new naver.maps.LatLng(37.51130174579461, 127.08017092541449), type: 'service', industry: '부동산중개업', name: '이레공인중개사', item: '',
         address: '서울특별시 송파구 잠실동 177-4 ', phone: '02-420-0058'
     },
 
     {
-        id: 256, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '디자인 리가', item: '',
+        id: 256, position: new naver.maps.LatLng(37.51332632455024, 127.11117051799867), type: 'service', industry: '건축/인테리어/디자인', name: '디자인 리가', item: '',
         address: '서울특별시 송파구 정의로 7길 13 오피스동 611(문정동 에코송파)', phone: '02-2058-1518/ 010-2305-7304'
     },
 
     {
-        id: 257, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '신성 네트워크', item: '스크린골프장, pc방 창업지원및 공장설비자금 지원',
+        id: 257, position: new naver.maps.LatLng(37.4939173802547, 127.12261367144164), type: 'service', industry: '기타', name: '신성 네트워크', item: '스크린골프장, pc방 창업지원및 공장설비자금 지원',
         address: '서울특별시 송파구 중대로10길 13', phone: '010-3813-3283'
     },
 
     {
-        id: 258, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '더봄길', item: '백일상 돌상대여',
+        id: 258, position: new naver.maps.LatLng(37.49617984245376, 126.90676205647851), type: 'service', industry: '기타', name: '더봄길', item: '백일상 돌상대여',
         address: '서울특별시 영등포구 디지털로 420, 상가 106호', phone: '010-9376-2995'
     },
 
     {
-        id: 259, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '인모스트투자자문', item: '투자자문사',
+        id: 259, position: new naver.maps.LatLng(37.53663161946976, 126.89277986059354), type: 'service', industry: '법률/상담', name: '인모스트투자자문', item: '투자자문사',
         address: '서울특별시 영등포구 양평로21길 26 1603호', phone: '02-2068-6482'
     },
 
     {
-        id: 260, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '경희대신강호태권도장', item: '',
+        id: 260, position: new naver.maps.LatLng(37.60400937183715, 126.92654815666177), type: 'service', industry: '학원', name: '경희대신강호태권도장', item: '',
         address: '서울특별시 은평구 녹번로9 3층 ', phone: '02-382-9498'
     },
 
     {
-        id: 261, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '(주)지씨엔', item: '해외이주,유학 컨설팅',
+        id: 261, position: new naver.maps.LatLng(37.571890693442896, 126.97450301009889), type: 'service', industry: '기타', name: '(주)지씨엔', item: '해외이주,유학 컨설팅',
         address: '서울특별시 종로구 새문안로 5길 13 변호사회관 1204호', phone: '02-3486-1400'
     },
 
     {
-        id: 262, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '토브디자인', item: '디자인&인쇄',
+        id: 262, position: new naver.maps.LatLng(37.56786718632109, 127.00141413337056), type: 'service', industry: '건축/인테리어/디자인', name: '토브디자인', item: '디자인&인쇄',
         address: '서울특별시 중구 을지로 35길 16-14', phone: '010-3438-0153'
     },
 
     {
-        id: 263, position: new naver.maps.LatLng(), type: 'service', industry: '헬스/필라테스', name: '센터원웰니스', item: '',
+        id: 263, position: new naver.maps.LatLng(37.56814034900321, 126.98543597147793), type: 'service', industry: '헬스/필라테스', name: '센터원웰니스', item: '',
         address: '서울특별시 중구 을지로5길 26 서관3층(수하동, 미래에셋센터원)', phone: '02-6030-1000'
     },
 
     {
-        id: 264, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '삼성공업', item: '미싱바늘',
+        id: 264, position: new naver.maps.LatLng(37.568466994076736, 126.99837511009699), type: 'service', industry: '기타', name: '삼성공업', item: '미싱바늘',
         address: '서울특별시 중구 창경궁로 58', phone: '010-8785-0719'
     },
 
     {
-        id: 265, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '소망기획', item: '청자켓 전문샘플실',
+        id: 265, position: new naver.maps.LatLng(37.56096248529846, 127.0129922180219), type: 'service', industry: '기타', name: '소망기획', item: '청자켓 전문샘플실',
         address: '서울특별시 중구 청구로 83-5 ', phone: '010-2175-5084'
     },
 
     {
-        id: 266, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '다온탄성', item: '',
+        id: 266, position: new naver.maps.LatLng(37.53073968390796, 126.84434900862294), type: 'service', industry: '건축/인테리어/디자인', name: '다온탄성', item: '',
         address: '서울특별시 화곡로 176-19 성재센트리움', phone: '010-4156-6439'
     },
 
     {
-        id: 267, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '서울음악학원', item: '',
+        id: 267, position: new naver.maps.LatLng(37.37085799249875, 126.93742172534637), type: 'service', industry: '학원', name: '서울음악학원', item: '',
         address: '경기 군포시 금산로 92 (산본동) 3층', phone: '031-396-1800'
     },
 
     {
-        id: 268, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '지지스튜디오(수내)', item: '사진관',
+        id: 268, position: new naver.maps.LatLng(37.3764393744906, 127.11782666466172), type: 'service', industry: '기타', name: '지지스튜디오(수내)', item: '사진관',
         address: '경기 성남시 분당구 내정로173번길 11 (수내동, 양지마을) 대명상가 지하 1층', phone: '031-707-4479'
     },
 
     {
-        id: 269, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '윤아이디', item: '',
+        id: 269, position: new naver.maps.LatLng(37.37503524012982, 127.13097434862163), type: 'service', industry: '건축/인테리어/디자인', name: '윤아이디', item: '',
         address: '경기 성남시 분당구 분당로 190 (분당동, 샛별마을라이프아파트, 102호))', phone: '031-703-4243'
     },
 
     {
-        id: 270, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '드림카센터', item: '',
+        id: 270, position: new naver.maps.LatLng(37.41070858818085, 127.1370708253656), type: 'service', industry: '자동차수리', name: '드림카센터', item: '',
         address: '경기 성남시 분당구 야탑로161번길 4-4 (야탑동)', phone: '031-705-0951'
     },
 
     {
-        id: 271, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '다트커뮤니케이션즈', item: '(온라인)디스플레이광고, 홈페이지 및 VR 제작',
+        id: 271, position: new naver.maps.LatLng(37.384210177241904, 127.12828987138859), type: 'service', industry: '기타', name: '다트커뮤니케이션즈', item: '(온라인)디스플레이광고, 홈페이지 및 VR 제작',
         address: '경기 성남시 분당구 중앙공원로 53 (서현동, 시범단지삼성.한신아파트)', phone: '010-9819-5518'
     },
 
     {
-        id: 272, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '고은 콜라겐 피부샵', item: '피부관리',
+        id: 272, position: new naver.maps.LatLng(37.386813255742716, 127.11181691793732), type: 'service', industry: '피부관리', name: '고은 콜라겐 피부샵', item: '피부관리',
         address: '경기 성남시 분당구 판교역로2번길 35 (백현동) 1층', phone: '031-704-4007'
     },
 
     {
-        id: 273, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '분당21세기병원', item: '[목,허리 디스크/관절,골절]',
+        id: 273, position: new naver.maps.LatLng(37.387097649656496, 127.1238334332827), type: 'service', industry: '병원', name: '분당21세기병원', item: '[목,허리 디스크/관절,골절]',
         address: '경기 성남시 분당구 황새울로342번길 15 (서현동) 은성빌딩 5,6층', phone: '031-703-0175'
     },
 
     {
-        id: 274, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '호반탑부동산', item: '부동산',
+        id: 274, position: new naver.maps.LatLng(37.28022264653131, 126.99836852036266), type: 'service', industry: '부동산중개업', name: '호반탑부동산', item: '부동산',
         address: '경기 성남시 수정구 고등로 34 (고등동, 호반써밋 판교밸리) 108호', phone: '031-756-4900'
     },
 
     {
-        id: 275, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '자람학원', item: '초중 영어 수학',
+        id: 275, position: new naver.maps.LatLng(37.48397587354917, 127.14987397320029), type: 'service', industry: '학원', name: '자람학원', item: '초중 영어 수학',
         address: '경기 성남시 수정구 위례동로 153 (창곡동) 에이플타워 601호', phone: '031-701-3371'
     },
 
     {
-        id: 276, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '박근완치과', item: '',
+        id: 276, position: new naver.maps.LatLng(37.44366913012249, 127.15468248184379), type: 'service', industry: '병원', name: '박근완치과', item: '',
         address: '경기 성남시 중원구 산성대로 340-1 (중앙동) 범원빌딩 3층', phone: '031-744-3333'
     },
 
     {
-        id: 277, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '이화앤해금스튜디오', item: '국악, 해금(입시, 취미)',
+        id: 277, position: new naver.maps.LatLng(37.2892562413437, 127.06092566732357), type: 'service', industry: '학원', name: '이화앤해금스튜디오', item: '국악, 해금(입시, 취미)',
         address: '경기 수원시 영통구 법조로 25 (하동) 광교SK뷰레이크 A동 411호', phone: '031-8001-2001'
     },
 
     {
-        id: 278, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '수학생각학원', item: '',
+        id: 278, position: new naver.maps.LatLng(37.294632928413186, 127.11885043323795), type: 'service', industry: '학원', name: '수학생각학원', item: '',
         address: '경기 용인시 기흥구 구성로 88 (언남동) 국민은행 5층 504호', phone: '070-4327-1499'
     },
 
     {
-        id: 279, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '더샵 공인중개사사무소', item: '부동산',
+        id: 279, position: new naver.maps.LatLng(37.27251663426227, 127.1181053485726), type: 'service', industry: '부동산중개업', name: '더샵 공인중개사사무소', item: '부동산',
         address: '경기 용인시 기흥구 기흥역로58번길 78 (구갈동, 기흥역 더샵) 기흥역더샵 판매시설 201동 103호', phone: '031-284-6111'
     },
 
     {
-        id: 280, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '늘봄음악학원', item: '',
+        id: 280, position: new naver.maps.LatLng(37.25785699276922, 127.13958669408926), type: 'service', industry: '학원', name: '늘봄음악학원', item: '',
         address: '경기 용인시 기흥구 중부대로 788번길 20 쌍용아파트 상가 3층', phone: '031-286-2167'
     },
 
     {
-        id: 281, position: new naver.maps.LatLng(), type: 'service', industry: '보육시설', name: '아이빌리어린이집', item: '',
+        id: 281, position: new naver.maps.LatLng(37.33117118362603, 127.11099845601758), type: 'service', industry: '보육시설', name: '아이빌리어린이집', item: '',
         address: '경기 용인시 수지구 용구대로 2742 (죽전동, 동성1차아파트, A 관리동)', phone: '031-261-5953'
     },
 
     {
-        id: 282, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '마스터수학 전문학원', item: '수학 학원',
+        id: 282, position: new naver.maps.LatLng(37.33257822313011, 127.12224735256574), type: 'service', industry: '학원', name: '마스터수학 전문학원', item: '수학 학원',
         address: '경기 용인시 수지구 현암로119 죽전메디뷰4층 404호', phone: '031-262-3698'
     },
 
     {
-        id: 283, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '이루레건축', item: '',
+        id: 283, position: new naver.maps.LatLng(37.23364309301204, 127.20180434113703), type: 'service', industry: '건축/인테리어/디자인', name: '이루레건축', item: '',
         address: '경기 용인시 처인구 금령로40번길 15-16 (김량장동) 1층', phone: '031-8097-2722'
     },
 
     {
-        id: 284, position: new naver.maps.LatLng(), type: 'service', industry: '여관업', name: '카세리오', item: '',
+        id: 284, position: new naver.maps.LatLng(37.74830128460874, 127.52571264087537), type: 'service', industry: '여관업', name: '카세리오', item: '',
         address: '경기도 가평군 가평읍 북한강변로 173', phone: '031-581-8001'
     },
 
     {
-        id: 285, position: new naver.maps.LatLng(), type: 'service', industry: '여관업', name: '인터라켄스테이', item: '',
+        id: 285, position: new naver.maps.LatLng(37.71121278362896, 127.48226050223846), type: 'service', industry: '여관업', name: '인터라켄스테이', item: '',
         address: '경기도 가평군 청평면 호반로 887', phone: '031 585 4788'
     },
 
     {
-        id: 286, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '삼송경희한의원', item: '',
+        id: 286, position: new naver.maps.LatLng(37.629972297260124, 126.71951528725769), type: 'service', industry: '한의원', name: '삼송경희한의원', item: '',
         address: '경기도 고양시 덕양구 삼송로88 오성프라자 401호', phone: '02-371-3375'
     },
 
     {
-        id: 287, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: 'A to Z 통번역', item: '통번역',
+        id: 287, position: new naver.maps.LatLng(37.67611941187617, 126.81150067945916), type: 'service', industry: '기타', name: 'A to Z 통번역', item: '통번역',
         address: '경기도 고양시 일산동구 위시티 1로 7 503-1003', phone: '010-7663-0855'
     },
 
     {
-        id: 288, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '주)제이피플', item: '행사기획대행, 인력아웃소싱',
+        id: 288, position: new naver.maps.LatLng(37.65638726214713, 126.7738748101401), type: 'service', industry: '기타', name: '주)제이피플', item: '행사기획대행, 인력아웃소싱',
         address: '경기도 고양시 일산동구 중앙로1305-30, 마이다스오피스텔1017호', phone: '010-3228-6252'
     },
 
     {
-        id: 289, position: new naver.maps.LatLng(), type: 'service', industry: '보육시설', name: '일산 아이사랑 어린이 집', item: '어린이집',
+        id: 289, position: new naver.maps.LatLng(37.68473449646244, 126.71627801066543), type: 'service', industry: '보육시설', name: '일산 아이사랑 어린이 집', item: '어린이집',
         address: '경기도 고양시 일산서구 송산로 339', phone: '031-923-0020'
     },
 
     {
-        id: 290, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '문지홍한의원', item: '',
+        id: 290, position: new naver.maps.LatLng(37.67723080322342, 126.7471285487692), type: 'service', industry: '한의원', name: '문지홍한의원', item: '',
         address: '경기도 고양시 일산서구 중앙로 1576 태진빌딩 203호', phone: '031-918-1075'
     },
 
     {
-        id: 291, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '세레니끄 과천점', item: '',
+        id: 291, position: new naver.maps.LatLng(37.421519088356256, 126.99229599468046), type: 'service', industry: '피부관리', name: '세레니끄 과천점', item: '',
         address: '경기도 과천시 별양로 12', phone: '02-3679-1580'
     },
 
     {
-        id: 292, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '예섬', item: '인쇄/홍보물',
+        id: 292, position: new naver.maps.LatLng(37.4292641283991, 126.88352711795791), type: 'service', industry: '기타', name: '예섬', item: '인쇄/홍보물',
         address: '경기도 광명시 소하동 서원로 25', phone: '02-3663-2813'
     },
 
     {
-        id: 293, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '연세김앤정 정형외과', item: '정형외과',
+        id: 293, position: new naver.maps.LatLng(37.476748494817365, 126.87009181005256), type: 'service', industry: '병원', name: '연세김앤정 정형외과', item: '정형외과',
         address: '경기도 광명시 철산로 36 양정타워 6층', phone: '02-2684-1111'
     },
 
     {
-        id: 294, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '한우리 독서토론 논술', item: '',
+        id: 294, position: new naver.maps.LatLng(37.37970640459945, 127.22915006407202), type: 'service', industry: '학원', name: '한우리 독서토론 논술', item: '',
         address: '경기도 광주 태봉로 163-2 힐스2차 2102동 1301호', phone: '010-9017-1646'
     },
 
     {
-        id: 295, position: new naver.maps.LatLng(), type: 'service', industry: '여관업', name: '아이오텔 모텔', item: '',
+        id: 295, position: new naver.maps.LatLng(37.41012362961318, 127.25929245656755), type: 'service', industry: '여관업', name: '아이오텔 모텔', item: '',
         address: '경기도 광주시 경안동 20-91', phone: '031-797-3951'
     },
 
     {
-        id: 296, position: new naver.maps.LatLng(), type: 'service', industry: '노인요양시설', name: '서연방문재활간호 재가요양센터', item: '',
+        id: 296, position: new naver.maps.LatLng(37.39297529740906, 127.22447478724973), type: 'service', industry: '노인요양시설', name: '서연방문재활간호 재가요양센터', item: '',
         address: '경기도 광주시 광나안로 29-34, 2층', phone: '010-4434-2487'
     },
 
     {
-        id: 297, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '티엘조경', item: '조경',
+        id: 297, position: new naver.maps.LatLng(37.35339171390508, 127.16419314068305), type: 'service', industry: '기타', name: '티엘조경', item: '조경',
         address: '경기도 광주시 능평로 46-6', phone: '031-717-5257'
     },
 
     {
-        id: 298, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '담안 75 셀프세차장', item: '셀프 세차장',
+        id: 298, position: new naver.maps.LatLng(37.38471677332794, 127.23889062535312), type: 'service', industry: '기타', name: '담안 75 셀프세차장', item: '셀프 세차장',
         address: '경기도 광주시 담안길 75', phone: '031-768-2285'
     },
 
     {
-        id: 299, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '이너피스', item: '',
+        id: 299, position: new naver.maps.LatLng(37.3951998771644, 127.24200245604865), type: 'service', industry: '부동산중개업', name: '이너피스', item: '',
         address: '경기도 광주시 순암로67(장지동87-4)', phone: '031-764-7759'
     },
 
     {
-        id: 300, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '러브에셋종합보험', item: '',
+        id: 300, position: new naver.maps.LatLng(37.40937649689781, 127.25959720318336), type: 'service', industry: '기타', name: '러브에셋종합보험', item: '',
         address: '경기도 광주시 역동로 5 갤러리아 플라자 212호', phone: '010-8955-7883'
     },
 
     {
-        id: 301, position: new naver.maps.LatLng(), type: 'service', industry: '보육시설', name: '새샘어린이집', item: '어린이집',
+        id: 301, position: new naver.maps.LatLng(37.360277316786856, 127.21626560999593), type: 'service', industry: '보육시설', name: '새샘어린이집', item: '어린이집',
         address: '경기도 광주시 오포안로 263번길', phone: '031-767-4279'
     },
 
     {
-        id: 302, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '거미하우스 인테리어', item: '욕실인테리어',
+        id: 302, position: new naver.maps.LatLng(37.35621026804335, 127.16599151792254), type: 'service', industry: '건축/인테리어/디자인', name: '거미하우스 인테리어', item: '욕실인테리어',
         address: '경기도 광주시 오포읍 능평로 5', phone: '010-5745-8804, 031-726-0300'
     },
 
     {
-        id: 303, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '바이올린. 비올라', item: '개인레슨',
+        id: 303, position: new naver.maps.LatLng(37.359307792090505, 127.16798763733293), type: 'service', industry: '학원', name: '바이올린. 비올라', item: '개인레슨',
         address: '경기도 광주시 오포읍 대명대길 11번길19 모아맨션103동102호', phone: '010-2605-7142'
     },
 
     {
-        id: 304, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '대주파크빌공인중개사사무소', item: '',
+        id: 304, position: new naver.maps.LatLng(37.3771816249799, 127.26082042534948), type: 'service', industry: '부동산중개업', name: '대주파크빌공인중개사사무소', item: '',
         address: '경기도 광주시 오포읍 마루들길 272, 기덕빌딩 103호', phone: '031-762-4800'
     },
 
     {
-        id: 305, position: new naver.maps.LatLng(), type: 'service', industry: '여행', name: '소라투어', item: '여행',
+        id: 305, position: new naver.maps.LatLng(37.37923111553627, 127.25560231793364), type: 'service', industry: '여행', name: '소라투어', item: '여행',
         address: '경기도 광주시 오포읍 양벌로 195-30 (104호)', phone: '010-5643-0321'
     },
 
     {
-        id: 306, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '능골한의원', item: '',
+        id: 306, position: new naver.maps.LatLng(37.344473412004064, 127.17917871791687), type: 'service', industry: '한의원', name: '능골한의원', item: '',
         address: '경기도 광주시 오포읍 오포로 119', phone: '031-765-8706'
     },
 
     {
-        id: 307, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '브아뛰르', item: '',
+        id: 307, position: new naver.maps.LatLng(37.34699674583343, 127.1810090179182), type: 'service', industry: '자동차수리', name: '브아뛰르', item: '',
         address: '경기도 광주시 오포읍 오포로 171번길 11-7', phone: '010-8556-4684'
     },
 
     {
-        id: 308, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '테마건축 유튜브주택박사', item: '',
+        id: 308, position: new naver.maps.LatLng(37.358896126756356, 127.2313590179239), type: 'service', industry: '부동산중개업', name: '테마건축 유튜브주택박사', item: '',
         address: '경기도 광주시 오포읍 추자리 263-3 테마빌딩 201호', phone: '031-766-9745'
     },
 
     {
-        id: 309, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '3030몰입영어', item: '',
+        id: 309, position: new naver.maps.LatLng(37.35844210612136, 127.16572164068573), type: 'service', industry: '학원', name: '3030몰입영어', item: '',
         address: '경기도 광주시 오포읍 태제로 137-1  포레시티 A동 102호', phone: '010-5668-0413'
     },
 
     {
-        id: 310, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '마루건축사사무소', item: '',
+        id: 310, position: new naver.maps.LatLng(37.40831392345544, 127.25943397932885), type: 'service', industry: '기타', name: '마루건축사사무소', item: '',
         address: '경기도 광주시 중앙로 196, 대영빌딩2층', phone: '031-767-6109'
     },
 
     {
-        id: 311, position: new naver.maps.LatLng(), type: 'service', industry: '헬스/필라테스', name: '브레이브짐(BRAVE GYM)', item: '',
+        id: 311, position: new naver.maps.LatLng(37.41030570433004, 127.26127147932965), type: 'service', industry: '헬스/필라테스', name: '브레이브짐(BRAVE GYM)', item: '',
         address: '경기도 광주시 중앙로 327 이레빌딩 3층(2,3층)', phone: '1877-4868'
     },
 
     {
-        id: 312, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '힐링스케치미술치료센터', item: '미술치료센터',
+        id: 312, position: new naver.maps.LatLng(37.4217794376225, 127.23116573329962), type: 'service', industry: '법률/상담', name: '힐링스케치미술치료센터', item: '미술치료센터',
         address: '경기도 광주시 탄벌길161', phone: '01088925555'
     },
 
     {
-        id: 313, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '해법영어수학', item: '',
+        id: 313, position: new naver.maps.LatLng(37.38706978336072, 127.22953440595766), type: 'service', industry: '학원', name: '해법영어수학', item: '',
         address: '경기도 광주시 태봉로 110 태전아이파크 102동 104호', phone: '010-9627-7096'
     },
 
     {
-        id: 314, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '필아트 미술학원', item: '',
+        id: 314, position: new naver.maps.LatLng(37.3779937308338, 127.11608675604032), type: 'service', industry: '학원', name: '필아트 미술학원', item: '',
         address: '경기도 광주시 태성로 130-1 한양프라자3층 302호', phone: '010-8994-3353'
     },
 
     {
-        id: 315, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '라라음악학원', item: '',
+        id: 315, position: new naver.maps.LatLng(37.53523318222481, 127.08973027197375), type: 'service', industry: '학원', name: '라라음악학원', item: '',
         address: '경기도 광주시 태성로 130-1, 한양플라자 301호', phone: '010-5525-7567'
     },
 
     {
-        id: 316, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '키즈키친봄', item: '쿠킹클래스',
+        id: 316, position: new naver.maps.LatLng(37.39209950186707, 127.22174667932089), type: 'service', industry: '기타', name: '키즈키친봄', item: '쿠킹클래스',
         address: '경기도 광주시 태전중앙로 14 2층', phone: '010-2752-2215'
     },
 
     {
-        id: 317, position: new naver.maps.LatLng(), type: 'service', industry: '네일숍', name: '안녕네일샵', item: '',
+        id: 317, position: new naver.maps.LatLng(37.39597422333239, 127.23380546813908), type: 'service', industry: '네일숍', name: '안녕네일샵', item: '',
         address: '경기도 광주시 태전중앙로16 서원프라자2동 1층', phone: '010-8223-4875'
     },
 
     {
-        id: 318, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '중앙공인중개사사무소', item: '',
+        id: 318, position: new naver.maps.LatLng(37.393393189505844, 127.22174124070249), type: 'service', industry: '부동산중개업', name: '중앙공인중개사사무소', item: '',
         address: '경기도 광주시 회안대로 350-3(태전동)', phone: '031-797-240, 010-9856-9821'
     },
 
     {
-        id: 319, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '드래곤피싱', item: '낚시 출조',
+        id: 319, position: new naver.maps.LatLng(37.39342728507974, 127.22148374863096), type: 'service', industry: '기타', name: '드래곤피싱', item: '낚시 출조',
         address: '경기도 광주시 회안대로 350-3(태전동), 3층', phone: '010-9918-1370'
     },
 
     {
-        id: 320, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '위강한의원(구리남양주점)', item: '',
+        id: 320, position: new naver.maps.LatLng(37.603014682820316, 127.14306047942337), type: 'service', industry: '한의원', name: '위강한의원(구리남양주점)', item: '',
         address: '경기도 구리시 경춘로 253, 다우스퀘어 201호 ', phone: '031-523-2015'
     },
 
     {
-        id: 321, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '개인택배', item: '택배',
+        id: 321, position: new naver.maps.LatLng(37.317902489472985, 126.91781393324925), type: 'service', industry: '기타', name: '개인택배', item: '택배',
         address: '경기도 군포시 송부로49번길15 금강펜테리움105동 202호', phone: '010-3443-2985'
     },
 
     {
-        id: 322, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '다산큰나무정신건강의학과', item: '',
+        id: 322, position: new naver.maps.LatLng(37.58649560893153, 127.17099265614169), type: 'service', industry: '병원', name: '다산큰나무정신건강의학과', item: '',
         address: '경기도 남양주시 다산중앙로124번길 22-8, 리더스퀘어 406호', phone: '031-567-9101'
     },
 
     {
-        id: 323, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '제이엘컴퍼니(렌탈119)', item: 'TFS천막, 몽골천막,탁자,의자,전시장치, 에어컨,화장실 등 렌탈',
+        id: 323, position: new naver.maps.LatLng(37.68556573832459, 127.19737409480902), type: 'service', industry: '기타', name: '제이엘컴퍼니(렌탈119)', item: 'TFS천막, 몽골천막,탁자,의자,전시장치, 에어컨,화장실 등 렌탈',
         address: '경기도 남양주시 진건읍 독정로 성지2길 106-5 www.rental119.co.kr/', phone: '031-528-1190'
     },
 
     {
-        id: 324, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '예솔치과의원', item: '',
+        id: 324, position: new naver.maps.LatLng(37.483484189193284, 126.7794576333296), type: 'service', industry: '병원', name: '예솔치과의원', item: '',
         address: '경기도 부천시 경인로 216-1', phone: '032-653-3339'
     },
 
     {
-        id: 325, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '아이보람 부천남센터', item: '원어 비디오와 원서를 활용하는 엄마표 영어 모임',
+        id: 325, position: new naver.maps.LatLng(37.49035484845813, 126.76747051798768), type: 'service', industry: '학원', name: '아이보람 부천남센터', item: '원어 비디오와 원서를 활용하는 엄마표 영어 모임',
         address: '경기도 부천시 중동로 108 현대아이파크 상가 308호', phone: '032-667-8919'
     },
 
     {
-        id: 326, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '24시홈서비스 ', item: '하수도 막힘 뚫음 / 고압세척',
+        id: 326, position: new naver.maps.LatLng(37.386317956238656, 127.1364429253538), type: 'service', industry: '기타', name: '24시홈서비스 ', item: '하수도 막힘 뚫음 / 고압세척',
         address: '경기도 분당구 안골로42 ', phone: '1833-9701'
     },
 
     {
-        id: 327, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '닥터심스의원', item: '가정의학과',
+        id: 327, position: new naver.maps.LatLng(37.370386409281885, 127.14265072534609), type: 'service', industry: '병원', name: '닥터심스의원', item: '가정의학과',
         address: '경기도 분당구 장안로27 스마트114빌딩 3층', phone: '031-701-1350~1'
     },
 
     {
-        id: 328, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: 'CEO클리닉', item: '중소기업리스크관리센터',
+        id: 328, position: new naver.maps.LatLng(37.37794569595112, 127.11397861000445), type: 'service', industry: '법률/상담', name: 'CEO클리닉', item: '중소기업리스크관리센터',
         address: '경기도 분당구 황새울로200번길34 코포모타워5층', phone: '031-786-0210'
     },
 
     {
-        id: 329, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '피엔피 인베스트먼트 ', item: '특허법인',
+        id: 329, position: new naver.maps.LatLng(37.4015009747701, 127.1011691639803), type: 'service', industry: '법률/상담', name: '피엔피 인베스트먼트 ', item: '특허법인',
         address: '경기도 성남시  판교로228번길 15, 2동7층701', phone: '031-622- 3953'
     },
 
     {
-        id: 330, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '분당드럼학원', item: '드럼',
+        id: 330, position: new naver.maps.LatLng(37.3382721694967, 127.11570737929488), type: 'service', industry: '학원', name: '분당드럼학원', item: '드럼',
         address: '경기도 성남시 구미로60 관보쇼핑 501호', phone: '010-8320-4926'
     },
 
     {
-        id: 331, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '동아수학학원', item: '초중고수학학원',
+        id: 331, position: new naver.maps.LatLng(37.37751660683909, 127.1337401303368), type: 'service', industry: '학원', name: '동아수학학원', item: '초중고수학학원',
         address: '경기도 성남시 분당구  486번길6. 304호 서현동  상록프라자  동아  초중고  수학 학원   ', phone: '031-701-5554'
     },
 
     {
-        id: 332, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '수학을풀다 수학학원', item: '',
+        id: 332, position: new naver.maps.LatLng(37.33861337510648, 127.1156644639496), type: 'service', industry: '학원', name: '수학을풀다 수학학원', item: '',
         address: '경기도 성남시 분당구 구미동 구미로 60  관보쇼핑 504호', phone: '01064189410'
     },
 
     {
-        id: 333, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: 'YBM잉글루 분당구미 제1캠퍼스 ', item: '영어교습소',
+        id: 333, position: new naver.maps.LatLng(37.33834041074265, 127.11579320998537), type: 'service', industry: '학원', name: 'YBM잉글루 분당구미 제1캠퍼스 ', item: '영어교습소',
         address: '경기도 성남시 분당구 구미로 60  관보쇼핑 408호 ', phone: '010 -2569 -0213'
     },
 
     {
-        id: 334, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '케이에스디자인 ', item: '',
+        id: 334, position: new naver.maps.LatLng(37.37101810933917, 127.10215879465585), type: 'service', industry: '건축/인테리어/디자인', name: '케이에스디자인 ', item: '',
         address: '경기도 성남시 분당구 금곡동 대왕판교로 300', phone: '070-4647-1176'
     },
 
     {
-        id: 335, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: 'GTG사고력수학 수내캠퍼스', item: '',
+        id: 335, position: new naver.maps.LatLng(37.38008423460666, 127.11580532984794), type: 'service', industry: '학원', name: 'GTG사고력수학 수내캠퍼스', item: '',
         address: '경기도 성남시 분당구 내정로 173번길 49(수내동, 궁전프라자 3) 213호', phone: '031-714-2350'
     },
 
     {
-        id: 336, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '팔레스인테리어', item: '',
+        id: 336, position: new naver.maps.LatLng(37.37806193597298, 127.11565760258775), type: 'service', industry: '건축/인테리어/디자인', name: '팔레스인테리어', item: '',
         address: '경기도 성남시 분당구 내정로173번길 49, 110호 (수내동 궁전프라자-3)', phone: '010-5345-2732'
     },
 
     {
-        id: 337, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '분당유도관', item: '',
+        id: 337, position: new naver.maps.LatLng(37.363042733105246, 127.11583831396167), type: 'service', industry: '학원', name: '분당유도관', item: '',
         address: '경기도 성남시 분당구 내정로24정든마을 (이경숙집사님남편)', phone: '0507-1434-8883'
     },
 
     {
-        id: 338, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '우리공인중개사', item: '',
+        id: 338, position: new naver.maps.LatLng(37.364775598667606, 127.11440474861703), type: 'service', industry: '부동산중개업', name: '우리공인중개사', item: '',
         address: '경기도 성남시 분당구 내정로55 상록마을 우성상가117호', phone: '010 8583 3700'
     },
 
     {
-        id: 339, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '토브구문정독 영어학원', item: '영어 어학원',
+        id: 339, position: new naver.maps.LatLng(37.368857980950594, 127.10631206396432), type: 'service', industry: '학원', name: '토브구문정독 영어학원', item: '영어 어학원',
         address: '경기도 성남시 분당구 느티로 16, 5층 (정자동, 젤존타워1)', phone: '031-719-1193'
     },
 
     {
-        id: 340, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '이포크드류', item: '미용실',
+        id: 340, position: new naver.maps.LatLng(37.36905961498776, 127.10512597138123), type: 'service', industry: '미용실', name: '이포크드류', item: '미용실',
         address: '경기도 성남시 분당구 느티로 2 AK와이즈플레이스 2층', phone: '031-714-3003'
     },
 
     {
-        id: 341, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '효도쿡123 정자점', item: '시니어 식사배달 서비스',
+        id: 341, position: new naver.maps.LatLng(37.3698736075842, 127.11055434861959), type: 'service', industry: '기타', name: '효도쿡123 정자점', item: '시니어 식사배달 서비스',
         address: '경기도 성남시 분당구 느티로51번길8-4 1층', phone: '031-719-1230'
     },
 
     {
-        id: 342, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: 'TM 수학', item: '',
+        id: 342, position: new naver.maps.LatLng(37.371237295180684, 127.122863633275), type: 'service', industry: '학원', name: 'TM 수학', item: '',
         address: '경기도 성남시 분당구 돌마로 361 (동신코아)', phone: '031-778-7976'
     },
 
     {
-        id: 343, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '작은화실', item: '미술',
+        id: 343, position: new naver.maps.LatLng(37.37600727097868, 127.13590752534873), type: 'service', industry: '학원', name: '작은화실', item: '미술',
         address: '경기도 성남시 분당구 돌마로 476번길31 삼환상가 304호', phone: '010-9482-8062'
     },
 
     {
-        id: 344, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '민트심리상담센터', item: '상담센터',
+        id: 344, position: new naver.maps.LatLng(37.350522860654884, 127.1099177179196), type: 'service', industry: '법률/상담', name: '민트심리상담센터', item: '상담센터',
         address: '경기도 성남시 분당구 돌마로 80 현대벤쳐빌 640호', phone: '031-897-6715'
     },
 
     {
-        id: 345, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '오한의원', item: '',
+        id: 345, position: new naver.maps.LatLng(37.37154424546619, 127.122863633275), type: 'service', industry: '한의원', name: '오한의원', item: '',
         address: '경기도 성남시 분당구 돌마로361 동신코아5층', phone: '031-712-1697'
     },
 
     {
-        id: 346, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '미술숲미술교습소', item: '미술',
+        id: 346, position: new naver.maps.LatLng(37.375836753343144, 127.13547837189616), type: 'service', industry: '학원', name: '미술숲미술교습소', item: '미술',
         address: '경기도 성남시 분당구 돌마로476번길31 203호(서현동 임광종합상가)', phone: '031-701-5257'
     },
 
     {
-        id: 347, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '포인스튜디오', item: '장소 대관 (댄스연습실, 악기연습실)',
+        id: 347, position: new naver.maps.LatLng(37.377423108139624, 127.13423348673072), type: 'service', industry: '기타', name: '포인스튜디오', item: '장소 대관 (댄스연습실, 악기연습실)',
         address: '경기도 성남시 분당구 돌마로486번길 6 상록프라자 지하1층', phone: '010-2352-7436'
     },
 
     {
-        id: 348, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '노동법률 동행', item: '고용,산재보험사무대행',
+        id: 348, position: new naver.maps.LatLng(37.3502684703712, 127.10937770257433), type: 'service', industry: '법률/상담', name: '노동법률 동행', item: '고용,산재보험사무대행',
         address: '경기도 성남시 분당구 돌마로68 6층 610호(구미동 분당프라자)', phone: '031-702-2343'
     },
 
     {
-        id: 349, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '다올공인 중개사', item: '',
+        id: 349, position: new naver.maps.LatLng(37.39399170137011, 127.11855711052402), type: 'service', industry: '부동산중개업', name: '다올공인 중개사', item: '',
         address: '경기도 성남시 분당구 동판교로 122 백현마을 2단지 상가 106호', phone: '031-8017-7100'
     },
 
     {
-        id: 350, position: new naver.maps.LatLng(), type: 'service', industry: '세탁소', name: '크린토피아 성남봇들8단지점', item: '',
+        id: 350, position: new naver.maps.LatLng(37.39610118505112, 127.11505041794184), type: 'service', industry: '세탁소', name: '크린토피아 성남봇들8단지점', item: '',
         address: '경기도 성남시 분당구 동판교로 153  봇들마을 8단지', phone: '031-8016-1121'
     },
 
     {
-        id: 351, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '미용실봄', item: '',
+        id: 351, position: new naver.maps.LatLng(37.38643925978949, 127.1147954179371), type: 'service', industry: '미용실', name: '미용실봄', item: '',
         address: '경기도 성남시 분당구 동판교로52번길19-17(백현동586-2)', phone: '010 7472 4026'
     },
 
     {
-        id: 352, position: new naver.maps.LatLng(), type: 'service', industry: '교정/재활', name: '위스포츠복지TOP운동발달센터', item: '운동발달 및 재활치료',
+        id: 352, position: new naver.maps.LatLng(37.41192010047123, 127.1339986026043), type: 'service', industry: '교정/재활', name: '위스포츠복지TOP운동발달센터', item: '운동발달 및 재활치료',
         address: '경기도 성남시 분당구 매화로 44 조일빌딩 4층', phone: '031-8017-3250'
     },
 
     {
-        id: 353, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '드림아트홀', item: '공연시설',
+        id: 353, position: new naver.maps.LatLng(37.41341705106573, 127.13374744071228), type: 'service', industry: '기타', name: '드림아트홀', item: '공연시설',
         address: '경기도 성남시 분당구 매화로 55번길 6-8 b01호', phone: '010-4275-1216'
     },
 
     {
-        id: 354, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '분당 베누스토/마이심포니', item: '악기레슨, 아마추어 오케스트라, 연습실대여',
+        id: 354, position: new naver.maps.LatLng(37.35242478078316, 127.11314845653958), type: 'service', industry: '기타', name: '분당 베누스토/마이심포니', item: '악기레슨, 아마추어 오케스트라, 연습실대여',
         address: '경기도 성남시 분당구 미금로 215 대원칸타빌 상가 203호', phone: '010-2885-6947'
     },
 
     {
-        id: 355, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '보람공인중개사사무소', item: '',
+        id: 355, position: new naver.maps.LatLng(37.349647065763435, 127.11419844464568), type: 'service', industry: '부동산중개업', name: '보람공인중개사사무소', item: '',
         address: '경기도 성남시 분당구 미금로177.신원상가', phone: '031.717.4900'
     },
 
     {
-        id: 356, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '공간정오', item: '여성전용작업실. 동네책방. 문화프로그램운영. 리필스테이션 ',
+        id: 356, position: new naver.maps.LatLng(37.3460858370862, 127.1099163565366), type: 'service', industry: '기타', name: '공간정오', item: '여성전용작업실. 동네책방. 문화프로그램운영. 리필스테이션 ',
         address: '경기도 성남시 분당구 미금일로85 404호 ', phone: ' 031-762-0314'
     },
 
     {
-        id: 357, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '스쿨 에이이아이오유', item: '성인전문 영어회화 (개인 및 업체출강 가능: 회화, 비지니스, ielts, opic)',
+        id: 357, position: new naver.maps.LatLng(37.370686445482136, 127.11725896339166), type: 'service', industry: '학원', name: '스쿨 에이이아이오유', item: '성인전문 영어회화 (개인 및 업체출강 가능: 회화, 비지니스, ielts, opic)',
         address: '경기도 성남시 분당구 백현로', phone: '01050232123'
     },
 
     {
-        id: 358, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: 'EPL코칭(이피엘코칭)', item: '기업코칭강의',
+        id: 358, position: new naver.maps.LatLng(37.37747562557906, 127.11025925711142), type: 'service', industry: '법률/상담', name: 'EPL코칭(이피엘코칭)', item: '기업코칭강의',
         address: '경기도 성남시 분당구 백현로 100,정자아이파크 1611호', phone: '010-5277-1106'
     },
 
     {
-        id: 359, position: new naver.maps.LatLng(), type: 'service', industry: '독서실/고시원', name: 'SOS 스터디센터(관리형학습센터)', item: '스터디센터',
+        id: 359, position: new naver.maps.LatLng(37.37751209122497, 127.1112158525875), type: 'service', industry: '독서실/고시원', name: 'SOS 스터디센터(관리형학습센터)', item: '스터디센터',
         address: '경기도 성남시 분당구 백현로 97, 다운타운빌딩 6층 SOS스터디센터', phone: '031-717-1616'
     },
 
     {
-        id: 360, position: new naver.maps.LatLng(), type: 'service', industry: '보육시설', name: '울타리어린이집', item: '보육시설',
+        id: 360, position: new naver.maps.LatLng(37.4124194694907, 127.14001527140222), type: 'service', industry: '보육시설', name: '울타리어린이집', item: '보육시설',
         address: '경기도 성남시 분당구 벌말로 50번길 14 702동 102호 (야탑동, 매화마을화성빌리지)', phone: '031 707 2780'
     },
 
     {
-        id: 361, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '레푸스 판교점', item: '발 치료',
+        id: 361, position: new naver.maps.LatLng(37.40015181833133, 127.11211618235232), type: 'service', industry: '기타', name: '레푸스 판교점', item: '발 치료',
         address: '경기도 성남시 분당구 분당내곡로 151 삼도타워 304호 ', phone: '031-702-8870'
     },
 
     {
-        id: 362, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '스튜디오 단한', item: '인테리어 설계',
+        id: 362, position: new naver.maps.LatLng(37.37641493375481, 127.1458466253491), type: 'service', industry: '건축/인테리어/디자인', name: '스튜디오 단한', item: '인테리어 설계',
         address: '경기도 성남시 분당구 분당동 105-8번지 1층', phone: '031-701-8480'
     },
 
     {
-        id: 363, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '권영미스킨케어', item: '',
+        id: 363, position: new naver.maps.LatLng(37.37235847953279, 127.13973254862078), type: 'service', industry: '피부관리', name: '권영미스킨케어', item: '',
         address: '경기도 성남시 분당구 분당로 263번길 35 굿모닝프라자 501호', phone: '010-4092-6361'
     },
 
