@@ -2746,7 +2746,7 @@ const BIZS = [
     },
 
     {
-        id: 336, position: new naver.maps.LatLng(37.37806193597298, 127.11565760258775), type: 'service', industry: '건축/인테리어/디자인', name: '팔레스인테리어', item: '',
+        id: 336, position: new naver.maps.LatLng(37.37806193597298, 127.11565760258775, type: 'service', industry: '건축/인테리어/디자인', name: '팔레스인테리어', item: '',
         address: '경기도 성남시 분당구 내정로173번길 49, 110호 (수내동 궁전프라자-3)', phone: '010-5345-2732'
     },
 
@@ -2886,262 +2886,262 @@ const BIZS = [
     },
 
     {
-        id: 364, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '씨제이상사', item: '건축,토목',
+        id: 364, position: new naver.maps.LatLng(37.372925443670006, 127.12906089913301), type: 'service', industry: '건축/인테리어/디자인', name: '씨제이상사', item: '건축,토목',
         address: '경기도 성남시 분당구 분당로190 샛별마을 110-701', phone: '010-4203-1247'
     },
 
     {
-        id: 365, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '하나 이비인후과', item: '',
+        id: 365, position: new naver.maps.LatLng(37.38483277110277, 127.12268902931736), type: 'service', industry: '병원', name: '하나 이비인후과', item: '',
         address: '경기도 성남시 분당구 분당로53번길 20 이랜드프라자 4층', phone: '031-701-1175'
     },
 
     {
-        id: 366, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '마트공인중개사사무소', item: '',
+        id: 366, position: new naver.maps.LatLng(37.362917961102404, 127.1217385258542), type: 'service', industry: '부동산중개업', name: '마트공인중개사사무소', item: '',
         address: '경기도 성남시 분당구 불정로 195 우성상가 113호(정자동, 정든마을우성6단지아파트)', phone: '031-713-7600'
     },
 
     {
-        id: 367, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '팀플체대입시 / 팀플짐', item: '입시체육학원 & PT',
+        id: 367, position: new naver.maps.LatLng(37.36677647228758, 127.12678137930872), type: 'service', industry: '학원', name: '팀플체대입시 / 팀플짐', item: '입시체육학원 & PT',
         address: '경기도 성남시 분당구 불정로 254 삼평프라자 B1 ', phone: '031-716-1020'
     },
 
     {
-        id: 368, position: new naver.maps.LatLng(), type: 'service', industry: '법률/상담', name: '분당법무사합동사무소', item: '법무사사무소',
+        id: 368, position: new naver.maps.LatLng(37.37464065103353, 127.13700491000297), type: 'service', industry: '법률/상담', name: '분당법무사합동사무소', item: '법무사사무소',
         address: '경기도 성남시 분당구 불정로 380 동남프라자303호', phone: '031-608-0011'
     },
 
     {
-        id: 369, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '리본 스킨 스튜디오', item: '',
+        id: 369, position: new naver.maps.LatLng(37.38665305332443, 127.12413708260479), type: 'service', industry: '피부관리', name: '리본 스킨 스튜디오', item: '',
         address: '경기도 성남시 분당구 불정로 381(서현동)효자촌 동진프라자 2층 208호', phone: '010-3373-4122'
     },
 
     {
-        id: 370, position: new naver.maps.LatLng(), type: 'service', industry: '세탁소', name: '워시앤조이셀프빨래방 분당서현점', item: '',
+        id: 370, position: new naver.maps.LatLng(37.37677343795294, 127.14042929465877), type: 'service', industry: '세탁소', name: '워시앤조이셀프빨래방 분당서현점', item: '',
         address: '경기도 성남시 분당구 불정로 420번길6', phone: '010-5904-8442'
     },
 
     {
-        id: 371, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '수수공방', item: '도예공방',
+        id: 371, position: new naver.maps.LatLng(37.36151805248774, 127.1147281406871), type: 'service', industry: '기타', name: '수수공방', item: '도예공방',
         address: '경기도 성남시 분당구 불정로 87번길 10(정자동)', phone: '031-714-5735'
     },
 
     {
-        id: 372, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '감성수학', item: '초중고수학',
+        id: 372, position: new naver.maps.LatLng(37.366989894514894, 127.12683191792775), type: 'service', industry: '학원', name: '감성수학', item: '초중고수학',
         address: '경기도 성남시 분당구 불정로256 청우프라자4층', phone: '031-712-0096'
     },
 
     {
-        id: 373, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '씨엘헤어', item: '',
+        id: 373, position: new naver.maps.LatLng(37.393243174966116, 127.07211927932134), type: 'service', industry: '미용실', name: '씨엘헤어', item: '',
         address: '경기도 성남시 분당구 산운로 98 산운마을 8단지 상가2층', phone: '031-8016-7224'
     },
 
     {
-        id: 374, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '창성에이스산업', item: '소방재품',
+        id: 374, position: new naver.maps.LatLng(37.40382093423039, 127.10108169467189), type: 'service', industry: '기타', name: '창성에이스산업', item: '소방재품',
         address: '경기도 성남시 분당구 삼평동 판교로 253', phone: ''
     },
 
     {
-        id: 375, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '소예한의원', item: '',
+        id: 375, position: new naver.maps.LatLng(37.40261625191871, 127.11043351794484), type: 'service', industry: '한의원', name: '소예한의원', item: '',
         address: '경기도 성남시 분당구 삼평동 판교역로 240 삼환하이펙스A동 210호', phone: '031-698-3575'
     },
 
     {
-        id: 376, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '코드아트랩', item: '아동미술',
+        id: 376, position: new naver.maps.LatLng(37.38871304220244, 127.15455873328354), type: 'service', industry: '학원', name: '코드아트랩', item: '아동미술',
         address: '경기도 성남시 분당구 새마을로233번길13', phone: '010-6789-0331'
     },
 
     {
-        id: 377, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '그린스킨케어', item: '',
+        id: 377, position: new naver.maps.LatLng(37.37521505899845, 127.1368382100032), type: 'service', industry: '피부관리', name: '그린스킨케어', item: '',
         address: '경기도 성남시 분당구 서현동 305-1 동진프라자 2층 213', phone: '031-709-1070'
     },
 
     {
-        id: 378, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '굿모닝부동산', item: '',
+        id: 378, position: new naver.maps.LatLng(37.38209639436869, 127.1281247793161), type: 'service', industry: '부동산중개업', name: '굿모닝부동산', item: '',
         address: '경기도 성남시 분당구 서현동 89-7', phone: '031-704-8888'
     },
 
     {
-        id: 379, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '분당중앙검도', item: '검도',
+        id: 379, position: new naver.maps.LatLng(37.37402861754817, 127.13792151000249), type: 'service', industry: '학원', name: '분당중앙검도', item: '검도',
         address: '경기도 성남시 분당구 서현동 미래타운A상가 2070호', phone: '031-709-1500'
     },
 
     {
-        id: 380, position: new naver.maps.LatLng(), type: 'service', industry: '교정/재활', name: '프로그레시브', item: '자세 및 체형 교정센타',
+        id: 380, position: new naver.maps.LatLng(37.389834213740116, 127.12249764862918), type: 'service', industry: '교정/재활', name: '프로그레시브', item: '자세 및 체형 교정센타',
         address: '경기도 성남시 분당구 서현동서현로170번길 풍림아이원플러스D동1704호', phone: '010-3765-5257'
     },
 
     {
-        id: 381, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '헤어매직', item: '',
+        id: 381, position: new naver.maps.LatLng(37.38906654609784, 127.12583369466473), type: 'service', industry: '미용실', name: '헤어매직', item: '',
         address: '경기도 성남시 분당구 서현로 181', phone: '031-702-6846'
     },
 
     {
-        id: 382, position: new naver.maps.LatLng(), type: 'service', industry: '여행', name: '선진항공여행사 ', item: '전세버스',
+        id: 382, position: new naver.maps.LatLng(37.38969782323431, 127.1226693097799), type: 'service', industry: '여행', name: '선진항공여행사 ', item: '전세버스',
         address: '경기도 성남시 분당구 서현로170 D1501', phone: '0317837008'
     },
 
     {
-        id: 383, position: new naver.maps.LatLng(), type: 'service', industry: '한의원', name: '동신한의원', item: '',
+        id: 383, position: new naver.maps.LatLng(37.38724635752635, 127.12551447909208), type: 'service', industry: '한의원', name: '동신한의원', item: '',
         address: '경기도 성남시 분당구 서현로210번길 2(지번) 서현동 245-3', phone: '031-707-9993'
     },
 
     {
-        id: 384, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '피아노브릿지음악학원', item: '성인음악학원',
+        id: 384, position: new naver.maps.LatLng(37.36583091756768, 127.10633797908172), type: 'service', industry: '학원', name: '피아노브릿지음악학원', item: '성인음악학원',
         address: '경기도 성남시 분당구 성남대로 331번길 13 507호', phone: '010-5044-6290'
     },
 
     {
-        id: 385, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '서울바를정치과', item: '',
+        id: 385, position: new naver.maps.LatLng(37.367904566438874, 127.10768641373924), type: 'service', industry: '병원', name: '서울바를정치과', item: '',
         address: '경기도 성남시 분당구 성남대로 349 시그마타워 402호 ', phone: '031-726-3427'
     },
 
     {
-        id: 386, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '미국유학닷컴 분당지사', item: '',
+        id: 386, position: new naver.maps.LatLng(37.370926196430716, 127.10754887908408), type: 'service', industry: '학원', name: '미국유학닷컴 분당지사', item: '',
         address: '경기도 성남시 분당구 성남대로 381.', phone: '031-711-2167'
     },
 
     {
-        id: 387, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '올리비아 아이', item: '뷰티(속눈섭파마.속눈썹연장)',
+        id: 387, position: new naver.maps.LatLng(37.34082410167879, 127.10857855578656), type: 'service', industry: '피부관리', name: '올리비아 아이', item: '뷰티(속눈섭파마.속눈썹연장)',
         address: '경기도 성남시 분당구 성남대로 51 포스빌 오피스텔', phone: '010-7519-7854'
     },
 
     {
-        id: 388, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '쥬비미용실', item: '',
+        id: 388, position: new naver.maps.LatLng(37.400025996228436, 127.12580048596587), type: 'service', industry: '미용실', name: '쥬비미용실', item: '',
         address: '경기도 성남시 분당구 성남대로 779번길 13,106호(이매동,오성프라자)', phone: '031-704-0203'
     },
 
     {
-        id: 389, position: new naver.maps.LatLng(), type: 'service', industry: '여행', name: '(주)이엔휴', item: '여행사',
+        id: 389, position: new naver.maps.LatLng(37.41114551540989, 127.12832986826606), type: 'service', industry: '여행', name: '(주)이엔휴', item: '여행사',
         address: '경기도 성남시 분당구 성남대로 916번길 11, 526(야탑동, 글라스타워)', phone: '070-4129-7602'
     },
 
     {
-        id: 390, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '청담윤 성형외과', item: '성형외과/피부과',
+        id: 390, position: new naver.maps.LatLng(37.351467428591924, 127.1092584023578), type: 'service', industry: '병원', name: '청담윤 성형외과', item: '성형외과/피부과',
         address: '경기도 성남시 분당구 성남대로168 미도프라자3층(신분당선1번출구)', phone: '031 -712-5502'
     },
 
     {
-        id: 391, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '아트파일미술학원', item: '입시미술',
+        id: 391, position: new naver.maps.LatLng(37.36545513639947, 127.10764564388901), type: 'service', industry: '학원', name: '아트파일미술학원', item: '입시미술',
         address: '경기도 성남시 분당구 성남대로331 3-9, 503호 (정자동,백궁프라자3차)', phone: '031-704-7757'
     },
 
     {
-        id: 392, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: 'FICUS영어학원', item: '',
+        id: 392, position: new naver.maps.LatLng(37.36482559890286, 127.10749823702093), type: 'service', industry: '학원', name: 'FICUS영어학원', item: '',
         address: '경기도 성남시 분당구 성남대로331번길 3-13 대명제스트빌딩 4층', phone: '0317260509'
     },
 
     {
-        id: 393, position: new naver.maps.LatLng(), type: 'service', industry: '네일숍', name: '끌로디아', item: '속눈썹 //(구)언니의속눈썹',
+        id: 393, position: new naver.maps.LatLng(37.372456104291615, 127.1069056563377), type: 'service', industry: '네일숍', name: '끌로디아', item: '속눈썹 //(구)언니의속눈썹',
         address: '경기도 성남시 분당구 성남대로393 분당두산위브파빌리온 A동1층 상가', phone: '010-7404-3228'
     },
 
     {
-        id: 394, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '한솔 비아이엠', item: '',
+        id: 394, position: new naver.maps.LatLng(37.380671657779466, 127.11824080183592), type: 'service', industry: '건축/인테리어/디자인', name: '한솔 비아이엠', item: '',
         address: '경기도 성남시 분당구 수내로 54 보보스쉐르빌 1714호', phone: '031-714-6830'
     },
 
     {
-        id: 395, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '삼부공인중개소', item: '',
+        id: 395, position: new naver.maps.LatLng(37.37114746762293, 127.12897674099392), type: 'service', industry: '부동산중개업', name: '삼부공인중개소', item: '',
         address: '경기도 성남시 분당구 수내로201 샛별마을 삼부아파트 분산상가101호', phone: '031-705-9994'
     },
 
     {
-        id: 396, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '행복한수학공부방 ', item: '',
+        id: 396, position: new naver.maps.LatLng(37.4118151512691, 127.13606258489891), type: 'service', industry: '학원', name: '행복한수학공부방 ', item: '',
         address: '경기도 성남시 분당구 야탑동 매화로38번길15 (2F)', phone: '010-5554-0905'
     },
 
     {
-        id: 397, position: new naver.maps.LatLng(), type: 'service', industry: '여행', name: '모두투어', item: '여행사',
+        id: 397, position: new naver.maps.LatLng(37.41510254314086, 127.13015429099836), type: 'service', industry: '여행', name: '모두투어', item: '여행사',
         address: '경기도 성남시 분당구 야탑동 판교로 477 저우스토아 (이매점)', phone: '010-3173-3952'
     },
 
     {
-        id: 398, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '애프터선데이클럽', item: '',
+        id: 398, position: new naver.maps.LatLng(37.410424894029, 127.13506817012231), type: 'service', industry: '미용실', name: '애프터선데이클럽', item: '',
         address: '경기도 성남시 분당구 야탑로 149번길 5 지하1층', phone: '010-4320-3766'
     },
 
     {
-        id: 399, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '토브플랜 ', item: '',
+        id: 399, position: new naver.maps.LatLng(37.409053830073205, 127.1219271354627), type: 'service', industry: '건축/인테리어/디자인', name: '토브플랜 ', item: '',
         address: '경기도 성남시 분당구 야탑로 28 우당프라자 b1', phone: '01053040092'
     },
 
     {
-        id: 400, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '지지스튜디오', item: '사진관',
+        id: 400, position: new naver.maps.LatLng(37.41082824695809, 127.13499924682813), type: 'service', industry: '기타', name: '지지스튜디오', item: '사진관',
         address: '경기도 성남시 분당구 야탑로139번길6-11', phone: '031-707-4479'
     },
 
     {
-        id: 401, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '우리ENG', item: '전기공사, 전기관련기술용역',
+        id: 401, position: new naver.maps.LatLng(37.40826150188988, 127.12147496216802), type: 'service', industry: '기타', name: '우리ENG', item: '전기공사, 전기관련기술용역',
         address: '경기도 성남시 분당구 야탑로20', phone: '010-8944-5683'
     },
 
     {
-        id: 402, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '에이알피앤씨', item: '도장공사',
+        id: 402, position: new naver.maps.LatLng(37.4084930188452, 127.1448183508033), type: 'service', industry: '건축/인테리어/디자인', name: '에이알피앤씨', item: '도장공사',
         address: '경기도 성남시 분당구 야탑로237 백마빌딩502호', phone: '010-3255-9454'
     },
 
     {
-        id: 403, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '건축사사무소 에이피엠', item: '건축설계, 감리',
+        id: 403, position: new naver.maps.LatLng(37.39955771683608, 127.12701877011659), type: 'service', industry: '건축/인테리어/디자인', name: '건축사사무소 에이피엠', item: '건축설계, 감리',
         address: '경기도 성남시 분당구 양현로 166번길 15. 308호', phone: '031-724-4854'
     },
 
     {
-        id: 404, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '젠동물병원', item: '동물병원',
+        id: 404, position: new naver.maps.LatLng(37.41704400808698, 127.13605250819583), type: 'service', industry: '병원', name: '젠동물병원', item: '동물병원',
         address: '경기도 성남시 분당구 양현로 479 2층 (야탑 119안전센터 옆)', phone: '031-752-0075'
     },
 
     {
-        id: 405, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '순영공방', item: '옷과 자수',
+        id: 405, position: new naver.maps.LatLng(37.390479414586984, 127.12733823886487), type: 'service', industry: '기타', name: '순영공방', item: '옷과 자수',
         address: '경기도 성남시 분당구 양현로 94번길 28 동신상가 201호 ', phone: '010-7111-3456'
     },
 
     {
-        id: 406, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '비유아트취미미술 ', item: '',
+        id: 406, position: new naver.maps.LatLng(37.399421345602164, 127.12740500818703), type: 'service', industry: '학원', name: '비유아트취미미술 ', item: '',
         address: '경기도 성남시 분당구 양현로166번길 15 장수빌딩 2층 201호', phone: '031-752-2123'
     },
 
     {
-        id: 407, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: 'GGE 해법수학(이매)', item: '수학',
+        id: 407, position: new naver.maps.LatLng(37.39159531326501, 127.12647760818317), type: 'service', industry: '학원', name: 'GGE 해법수학(이매)', item: '수학',
         address: '경기도 성남시 분당구 양현로94길 9 성우빌딩2층', phone: ''
     },
 
     {
-        id: 408, position: new naver.maps.LatLng(), type: 'service', industry: '세탁소', name: '백양세탁소', item: '',
+        id: 408, position: new naver.maps.LatLng(37.391883330472055, 127.12665420023009), type: 'service', industry: '세탁소', name: '백양세탁소', item: '',
         address: '경기도 성남시 분당구 양현로94번길 이매촌동신3단지내 상가205호', phone: '031-703-0134'
     },
 
     {
-        id: 409, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '문예진캘리그라피', item: '캘리그리피 수업, 수제도장(전각) 제작 등',
+        id: 409, position: new naver.maps.LatLng(37.379813798351684, 127.05017644985753), type: 'service', industry: '기타', name: '문예진캘리그라피', item: '캘리그리피 수업, 수제도장(전각) 제작 등',
         address: '경기도 성남시 분당구 운중동 석운로 440', phone: '010-4552-0121'
     },
 
     {
-        id: 410, position: new naver.maps.LatLng(), type: 'service', industry: '헬스/필라테스', name: '턴핏PT', item: '피트니스',
+        id: 410, position: new naver.maps.LatLng(37.392722884617534, 127.07788101001167), type: 'service', industry: '헬스/필라테스', name: '턴핏PT', item: '피트니스',
         address: '경기도 성남시 분당구 운중로 131, 8층 803, 804호(스타식스 매트로)', phone: '031-698-4246'
     },
 
     {
-        id: 411, position: new naver.maps.LatLng(), type: 'service', industry: '피부관리', name: '이파리본 스파', item: '',
+        id: 411, position: new naver.maps.LatLng(37.391588368608154, 127.09228385655834), type: 'service', industry: '피부관리', name: '이파리본 스파', item: '',
         address: '경기도 성남시 분당구 운중로 225번길 58-1', phone: '031-703-0456'
     },
 
     {
-        id: 412, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '이투스247(이매점)', item: '독학 재수학원',
+        id: 412, position: new naver.maps.LatLng(37.40001984757293, 127.12585263328897), type: 'service', industry: '학원', name: '이투스247(이매점)', item: '독학 재수학원',
         address: '경기도 성남시 분당구 이매동 105-2', phone: '031-708-0247'
     },
 
     {
-        id: 413, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '해원국어교습소', item: '국어 ',
+        id: 413, position: new naver.maps.LatLng(37.39196063121767, 127.12565964863042), type: 'service', industry: '학원', name: '해원국어교습소', item: '국어 ',
         address: '경기도 성남시 분당구 이매동 양현로 94번길 11  208호 ', phone: '031-781-7005'
     },
 
     {
-        id: 414, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '김가이헤어', item: '',
+        id: 414, position: new naver.maps.LatLng(37.39928729950812, 127.12947619466956), type: 'service', industry: '미용실', name: '김가이헤어', item: '',
         address: '경기도 성남시 분당구 이매동86-11번지 1층 김가이헤어.', phone: '031 704 7096'
     },
 
     {
-        id: 415, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '제이기획', item: '편집 기획 인쇄',
+        id: 415, position: new naver.maps.LatLng(37.3920014062716, 127.1329268486303), type: 'service', industry: '기타', name: '제이기획', item: '편집 기획 인쇄',
         address: '경기도 성남시 분당구 이매로 124 b02호', phone: '010 3323 6186'
     },
 
