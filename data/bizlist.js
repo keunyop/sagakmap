@@ -3146,327 +3146,327 @@ const BIZS = [
     },
 
     {
-        id: 416, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '트리니티주니어스쿨 어학원', item: '유치.초등 영어교육',
+        id: 416, position: new naver.maps.LatLng(37.39573006202827, 127.12221320259631), type: 'service', industry: '학원', name: '트리니티주니어스쿨 어학원', item: '유치.초등 영어교육',
         address: '경기도 성남시 분당구 이매로 15', phone: '031 -708 -5400'
     },
 
     {
-        id: 417, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '보람디자인', item: '',
+        id: 417, position: new naver.maps.LatLng(37.394845156743926, 127.12225062535792), type: 'service', industry: '건축/인테리어/디자인', name: '보람디자인', item: '',
         address: '경기도 성남시 분당구 이매로 16', phone: '031-802-4424'
     },
 
     {
-        id: 418, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '분당재성학원', item: '',
+        id: 418, position: new naver.maps.LatLng(37.395562684083366, 127.12624651001309), type: 'service', industry: '학원', name: '분당재성학원', item: '',
         address: '경기도 성남시 분당구 이매로 47 3층 302호', phone: '031-781-4300'
     },
 
     {
-        id: 419, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '베를린실용음악학원', item: '음악학원',
+        id: 419, position: new naver.maps.LatLng(37.39569581237116, 127.12664572932262), type: 'service', industry: '학원', name: '베를린실용음악학원', item: '음악학원',
         address: '경기도 성남시 분당구 이매로 51 한라프라자 203호 (이매역4번출구)', phone: '031-707-8462'
     },
 
     {
-        id: 420, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '분당카병원', item: '',
+        id: 420, position: new naver.maps.LatLng(37.39441706611742, 127.1300658867387), type: 'service', industry: '자동차수리', name: '분당카병원', item: '',
         address: '경기도 성남시 분당구 이매로 84 (이매동261) 1층', phone: '031-708-7735'
     },
 
     {
-        id: 421, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '분당CAR병원', item: '자동차 외장관리 및 외형복원',
+        id: 421, position: new naver.maps.LatLng(37.39411020944582, 127.12985131001243), type: 'service', industry: '자동차수리', name: '분당CAR병원', item: '자동차 외장관리 및 외형복원',
         address: '경기도 성남시 분당구 이매로84 1층', phone: '031-708-7735'
     },
 
     {
-        id: 422, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '야탑율음악학원', item: '피아노전문',
+        id: 422, position: new naver.maps.LatLng(37.41605725959542, 127.12990594864208), type: 'service', industry: '학원', name: '야탑율음악학원', item: '피아노전문',
         address: '경기도 성남시 분당구 장미로101, 1동3층 1302호(야탑동,장미마을근린상가)', phone: ' 031-707-7734'
     },
 
     {
-        id: 423, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '수제이수학학원', item: '',
+        id: 423, position: new naver.maps.LatLng(37.36427843114909, 127.11745586396218), type: 'service', industry: '학원', name: '수제이수학학원', item: '',
         address: '경기도 성남시 분당구 정자2동 정자로 113', phone: '031 719 1106'
     },
 
     {
-        id: 424, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '돼지이용원 ', item: '',
+        id: 424, position: new naver.maps.LatLng(37.36570718807797, 127.12063957137951), type: 'service', industry: '미용실', name: '돼지이용원 ', item: '',
         address: '경기도 성남시 분당구 정자2동 정자로 143', phone: '031-714-7537'
     },
 
     {
-        id: 425, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '아트앤아이 미술학원(유학미술)', item: '',
+        id: 425, position: new naver.maps.LatLng(37.37125187723591, 127.10542120258451), type: 'service', industry: '학원', name: '아트앤아이 미술학원(유학미술)', item: '',
         address: '경기도 성남시 분당구 정자동 12-1 백궁지엔느 빌딩 4층', phone: '031-716-2722 '
     },
 
     {
-        id: 426, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '오토챠밍', item: '',
+        id: 426, position: new naver.maps.LatLng(37.373946923955714, 127.11368724862173), type: 'service', industry: '자동차수리', name: '오토챠밍', item: '',
         address: '경기도 성남시 분당구 정자동 내정로129번길 32', phone: '031-711-1327'
     },
 
     {
-        id: 427, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '뷰티피부관리샵', item: '',
+        id: 427, position: new naver.maps.LatLng(37.36899249904613, 127.11013205258367), type: 'service', industry: '미용실', name: '뷰티피부관리샵', item: '',
         address: '경기도 성남시 분당구 정자동 느티 공무원 주공아파트 70번지 4단지상가내 1층 112호', phone: '031-713-8464'
     },
 
     {
-        id: 428, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '라인 아트', item: '갤러리 ',
+        id: 428, position: new naver.maps.LatLng(37.36127777527242, 127.10788919068695), type: 'service', industry: '기타', name: '라인 아트', item: '갤러리 ',
         address: '경기도 성남시 분당구 정자동 성남대로 275', phone: '010 3703 4930'
     },
 
     {
-        id: 429, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '헤더스잉글리쉬', item: '',
+        id: 429, position: new naver.maps.LatLng(37.3711627398654, 127.10743849862027), type: 'service', industry: '학원', name: '헤더스잉글리쉬', item: '',
         address: '경기도 성남시 분당구 정자동 성남대로385 분당클리닉 701호', phone: '031 -726 -6262'
     },
 
     {
-        id: 430, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '플로라', item: '',
+        id: 430, position: new naver.maps.LatLng(37.36289044187889, 127.11770687930675), type: 'service', industry: '미용실', name: '플로라', item: '',
         address: '경기도 성남시 분당구 정자로 112', phone: '010-3020-8474'
     },
 
     {
-        id: 431, position: new naver.maps.LatLng(), type: 'service', industry: '골프연습장', name: 'LG골프연습장', item: '',
+        id: 431, position: new naver.maps.LatLng(37.364254165477846, 127.12101135888318), type: 'service', industry: '골프연습장', name: 'LG골프연습장', item: '',
         address: '경기도 성남시 분당구 정자로 143 한솔마을근린상가 (우)13608 정자동 111번지 b01호 LG골프연습장', phone: '031-711-1855'
     },
 
     {
-        id: 432, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '개인과외', item: '개인과외(영어)',
+        id: 432, position: new naver.maps.LatLng(37.36329197702935, 127.11260715948569), type: 'service', industry: '학원', name: '개인과외', item: '개인과외(영어)',
         address: '경기도 성남시 분당구 정자로 56 라이프2단지 201-509', phone: '010-5291-9133'
     },
 
     {
-        id: 433, position: new naver.maps.LatLng(), type: 'service', industry: '세탁소', name: '크린토피아(스타파크점)', item: '',
+        id: 433, position: new naver.maps.LatLng(37.361616351727896, 127.10531790999669), type: 'service', industry: '세탁소', name: '크린토피아(스타파크점)', item: '',
         address: '경기도 성남시 분당구 정자일로 121 상가동 1층 비-31호', phone: '031- 717- 5503'
     },
 
     {
-        id: 434, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '티엘씨 소아과', item: '',
+        id: 434, position: new naver.maps.LatLng(37.36857033382831, 127.10576017930941), type: 'service', industry: '병원', name: '티엘씨 소아과', item: '',
         address: '경기도 성남시 분당구 정자일로 197 푸르지오시티 2차 203호', phone: '031-607-1001'
     },
 
     {
-        id: 435, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '베일리뷰티', item: '미용실',
+        id: 435, position: new naver.maps.LatLng(37.371450199122414, 127.10522760207289), type: 'service', industry: '미용실', name: '베일리뷰티', item: '미용실',
         address: '경기도 성남시 분당구 정자일로 213번길 19 아이파크2 201동 상가 2층 베일리뷰티', phone: '031-717-1010'
     },
 
     {
-        id: 436, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '바인 에듀케이션', item: '학원/유학원',
+        id: 436, position: new naver.maps.LatLng(37.371456510859346, 127.10567869465606), type: 'service', industry: '학원', name: '바인 에듀케이션', item: '학원/유학원',
         address: '경기도 성남시 분당구 정자일로 227', phone: '031-8023-5565'
     },
 
     {
-        id: 437, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '온스콜라 ', item: '',
+        id: 437, position: new naver.maps.LatLng(37.37197781109159, 127.10614251792998), type: 'service', industry: '학원', name: '온스콜라 ', item: '',
         address: '경기도 성남시 분당구 정자일로 234 태남프라자 502호 온스콜라 ', phone: ''
     },
 
     {
-        id: 438, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: ' K.라벨르 뷰티아카데미', item: '미용학원',
+        id: 438, position: new naver.maps.LatLng(37.37196304949805, 127.10640481000172), type: 'service', industry: '학원', name: ' K.라벨르 뷰티아카데미', item: '미용학원',
         address: '경기도 성남시 분당구 정자일로 240 206호', phone: '031-714-4523 '
     },
 
     {
-        id: 439, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '유앤아이카', item: '',
+        id: 439, position: new naver.maps.LatLng(37.37997370979356, 127.1283814253508), type: 'service', industry: '자동차수리', name: '유앤아이카', item: '',
         address: '경기도 성남시 분당구 중앙공원로 20 시범단지 현대아파트 분산상가 1동', phone: '031-702-0348'
     },
 
     {
-        id: 440, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '바른수학', item: '',
+        id: 440, position: new naver.maps.LatLng(37.38364988109417, 127.12544224862636), type: 'service', industry: '학원', name: '바른수학', item: '',
         address: '경기도 성남시 분당구 중앙공원로 31번길 42', phone: '031-708- 3014'
     },
 
     {
-        id: 441, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '샘물피아노', item: '',
+        id: 441, position: new naver.maps.LatLng(37.38387503021491, 127.12548914466215), type: 'service', industry: '학원', name: '샘물피아노', item: '',
         address: '경기도 성남시 분당구 중앙공원로 31번길42.서현파크프라자2층', phone: '050- 71347-0055'
     },
 
     {
-        id: 442, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '지음(디자인)', item: '',
+        id: 442, position: new naver.maps.LatLng(37.38222419621389, 127.12810022931605), type: 'service', industry: '건축/인테리어/디자인', name: '지음(디자인)', item: '',
         address: '경기도 성남시 분당구 중앙공원로 39번길 7 삼성한신근린상가 131호', phone: '010-3519-4844'
     },
 
     {
-        id: 443, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '뮤엠영어 서현초점', item: '영어',
+        id: 443, position: new naver.maps.LatLng(37.38195999136656, 127.12808186397083), type: 'service', industry: '학원', name: '뮤엠영어 서현초점', item: '영어',
         address: '경기도 성남시 분당구 중앙공원로39번길 7', phone: '031-708-0579'
     },
 
     {
-        id: 444, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '브랑시기', item: ' 오일샵(도테라), 피부오일',
+        id: 444, position: new naver.maps.LatLng(37.38072909765585, 127.12945297931552), type: 'service', industry: '기타', name: '브랑시기', item: ' 오일샵(도테라), 피부오일',
         address: '경기도 성남시 분당구 중앙공원로40번길4  현대카스빌딩 136호', phone: '010-2762-7597'
     },
 
     {
-        id: 445, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '골드부동산', item: '',
+        id: 445, position: new naver.maps.LatLng(37.3801775991317, 127.13033135604154), type: 'service', industry: '부동산중개업', name: '골드부동산', item: '',
         address: '경기도 성남시 분당구 중앙공원로40번길8,156호(서현동,현대아케이드)', phone: '031-701-6600'
     },
 
     {
-        id: 446, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '비앤씨글로벌(주)', item: '건설,제조,철골공사',
+        id: 446, position: new naver.maps.LatLng(37.34435641269548, 127.10585060998832), type: 'service', industry: '건축/인테리어/디자인', name: '비앤씨글로벌(주)', item: '건설,제조,철골공사',
         address: '경기도 성남시 분당구 탄천상로 164 C동 427호 (구미동,시그마2오피스텔)', phone: '070-4335-7004'
     },
 
     {
-        id: 447, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '한국가이던스(주) ', item: '교육서비스',
+        id: 447, position: new naver.maps.LatLng(37.40018718555042, 127.12784946723652), type: 'service', industry: '학원', name: '한국가이던스(주) ', item: '교육서비스',
         address: '경기도 성남시 분당구 판교로 255번길 9-22 우림wcity A동 801호', phone: ''
     },
 
     {
-        id: 448, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '모범공인중개사', item: '',
+        id: 448, position: new naver.maps.LatLng(37.40573720073437, 127.12205651794648), type: 'service', industry: '부동산중개업', name: '모범공인중개사', item: '',
         address: '경기도 성남시 분당구 판교로 436,104호(이매동,아름마을)', phone: '031-704-5000'
     },
 
     {
-        id: 449, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '황금부동산', item: '',
+        id: 449, position: new naver.maps.LatLng(37.39598488972349, 127.09786712597783), type: 'service', industry: '부동산중개업', name: '황금부동산', item: '',
         address: '경기도 성남시 분당구 판교로 478, 105호', phone: '010-3749-7307'
     },
 
     {
-        id: 450, position: new naver.maps.LatLng(), type: 'service', industry: '자동차수리', name: '블루핸즈 현대 야탑써비스', item: '',
+        id: 450, position: new naver.maps.LatLng(37.41142202893087, 127.128080042978), type: 'service', industry: '자동차수리', name: '블루핸즈 현대 야탑써비스', item: '',
         address: '경기도 성남시 분당구 판교로 582', phone: '031-701-5566'
     },
 
     {
-        id: 451, position: new naver.maps.LatLng(), type: 'service', industry: '세탁소', name: '크린토피아백현마을점', item: '',
+        id: 451, position: new naver.maps.LatLng(37.390486916616496, 127.11197234121303), type: 'service', industry: '세탁소', name: '크린토피아백현마을점', item: '',
         address: '경기도 성남시 분당구 판교역로 102백현마을5단지 가상가 102호', phone: '031-703-8271'
     },
 
     {
-        id: 452, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: 'WHDM', item: '디자인(제품/인테리어)',
+        id: 452, position: new naver.maps.LatLng(37.38566676576426, 127.11215533328206), type: 'service', industry: '건축/인테리어/디자인', name: 'WHDM', item: '디자인(제품/인테리어)',
         address: '경기도 성남시 분당구 판교역로 50번길 34', phone: '010-8847-0909'
     },
 
     {
-        id: 453, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '8단지부동산', item: '',
+        id: 453, position: new naver.maps.LatLng(37.38771764990164, 127.10960491793774), type: 'service', industry: '부동산중개업', name: '8단지부동산', item: '',
         address: '경기도 성남시 분당구 판교역로 72 상가동 102호', phone: '031-8017-8017'
     },
 
     {
-        id: 454, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '베데스다', item: '마사지샵',
+        id: 454, position: new naver.maps.LatLng(37.37698538954815, 127.1126626332778), type: 'service', industry: '기타', name: '베데스다', item: '마사지샵',
         address: '경기도 성남시 분당구 황새울로 200번길 22 (수내동,한솔인피니티)311호', phone: '031-606-0304'
     },
 
     {
-        id: 455, position: new naver.maps.LatLng(), type: 'service', industry: '건축/인테리어/디자인', name: '디자인 하임 한샘대리점', item: '',
+        id: 455, position: new naver.maps.LatLng(37.37667106541984, 127.11274264120676), type: 'service', industry: '건축/인테리어/디자인', name: '디자인 하임 한샘대리점', item: '',
         address: '경기도 성남시 분당구 황새울로 200번길 22,910호(한솔인피니티)', phone: '010-5423-7314'
     },
 
     {
-        id: 456, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '분당예치과', item: '',
+        id: 456, position: new naver.maps.LatLng(37.37912581250678, 127.11587545940256), type: 'service', industry: '병원', name: '분당예치과', item: '',
         address: '경기도 성남시 분당구 황새울로 258번길 37(수내동, 흥국생명빌딩 2층)', phone: '031-708-2828'
     },
 
     {
-        id: 457, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '초림부동산', item: '',
+        id: 457, position: new naver.maps.LatLng(37.378737214365195, 127.11564437535024), type: 'service', industry: '부동산중개업', name: '초림부동산', item: '',
         address: '경기도 성남시 분당구 황새울로 258번길 43, 수내프라자 318호', phone: '031-718-1700'
     },
 
     {
-        id: 458, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '천지부동산', item: '',
+        id: 458, position: new naver.maps.LatLng(37.385323568418656, 127.12171937931764), type: 'service', industry: '부동산중개업', name: '천지부동산', item: '',
         address: '경기도 성남시 분당구 황새울로 330번길 16 101호', phone: '031-706-5205'
     },
 
     {
-        id: 459, position: new naver.maps.LatLng(), type: 'service', industry: '네일숍', name: '발라드네일', item: '',
+        id: 459, position: new naver.maps.LatLng(37.3864407704775, 127.12202760604461), type: 'service', industry: '네일숍', name: '발라드네일', item: '',
         address: '경기도 성남시 분당구 황새울로 335번길 5 N타운빌딩 1층', phone: '031-696-1313'
     },
 
     {
-        id: 460, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '예 수선실', item: '각종 의류수선&리폼',
+        id: 460, position: new naver.maps.LatLng(37.37894182756832, 127.11551562931447), type: 'service', industry: '기타', name: '예 수선실', item: '각종 의류수선&리폼',
         address: '경기도 성남시 분당구 황새울로258번길43 현대수내프라자3층 324호 ', phone: '031-8016-0990'
     },
 
     {
-        id: 461, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '토킹클럽서현어학원', item: '',
+        id: 461, position: new naver.maps.LatLng(37.37234517594226, 127.14003463723998), type: 'service', industry: '학원', name: '토킹클럽서현어학원', item: '',
         address: '경기도 성남시 분당로 263번길 39 레이디파크빌딩 302-303호', phone: '031-707-7905'
     },
 
     {
-        id: 462, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '분당부동산 ', item: '',
+        id: 462, position: new naver.maps.LatLng(37.36935959186642, 127.1074510486194), type: 'service', industry: '부동산중개업', name: '분당부동산 ', item: '',
         address: '경기도 성남시 분댱구 느티로27', phone: '031-735-2000'
     },
 
     {
-        id: 463, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '모모', item: '두피관리샵',
+        id: 463, position: new naver.maps.LatLng(37.3888140477064, 127.12395264070041), type: 'service', industry: '기타', name: '모모', item: '두피관리샵',
         address: '경기도 성남시 서현동 서현에클라트1차 537호', phone: '010-3222-9653'
     },
 
     {
-        id: 464, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '이디엘헤어', item: '',
+        id: 464, position: new naver.maps.LatLng(37.3861278694952, 127.12385350259186), type: 'service', industry: '미용실', name: '이디엘헤어', item: '',
         address: '경기도 성남시 서현로 210번길 20, 2층 10호', phone: '031-707-7771'
     },
 
     {
-        id: 465, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '자이풍경채 공인중개사', item: '',
+        id: 465, position: new naver.maps.LatLng(37.42745552275459, 127.09919771002856), type: 'service', industry: '부동산중개업', name: '자이풍경채 공인중개사', item: '',
         address: '경기도 성남시 수정구 고등공원로 19,제일풍경채상가2동 120호', phone: '031-715-7900'
     },
 
     {
-        id: 466, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '(주)무림하우징', item: '건물 및 아파트관리',
+        id: 466, position: new naver.maps.LatLng(37.439775145404134, 127.14235839468917), type: 'service', industry: '기타', name: '(주)무림하우징', item: '건물 및 아파트관리',
         address: '경기도 성남시 수정구 산성대로 223 9층', phone: '010-3778-5437'
     },
 
     {
-        id: 467, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '성남우체국보험팀', item: '우체국보험',
+        id: 467, position: new naver.maps.LatLng(37.44249361841023, 127.14985872538134), type: 'service', industry: '기타', name: '성남우체국보험팀', item: '우체국보험',
         address: '경기도 성남시 수정구 산성대로301', phone: '010-2797-8997'
     },
 
     {
-        id: 468, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '태후사랑', item: '',
+        id: 468, position: new naver.maps.LatLng(37.439174801713136, 127.12983302537948), type: 'service', industry: '미용실', name: '태후사랑', item: '',
         address: '경기도 성남시 수정구 성남대로 1210번길13-12', phone: '010-3097-7457'
     },
 
     {
-        id: 469, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '우리공인 중개사 사무소', item: '',
+        id: 469, position: new naver.maps.LatLng(37.44011666818186, 127.12999103330841), type: 'service', industry: '부동산중개업', name: '우리공인 중개사 사무소', item: '',
         address: '경기도 성남시 수정구 수정남로 18번길 1', phone: '031-757-6469'
     },
 
     {
-        id: 470, position: new naver.maps.LatLng(), type: 'service', industry: '부동산중개업', name: '양지공인중개사', item: '',
+        id: 470, position: new naver.maps.LatLng(37.440658894441455, 127.13313724072559), type: 'service', industry: '부동산중개업', name: '양지공인중개사', item: '',
         address: '경기도 성남시 수정구 수정남로46번길1, 1층', phone: '031-753-3137'
     },
 
     {
-        id: 471, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '동성당', item: '시계',
+        id: 471, position: new naver.maps.LatLng(37.44198390364672, 127.13194293330938), type: 'service', industry: '기타', name: '동성당', item: '시계',
         address: '경기도 성남시 수정구 수정로 109', phone: '031-753-3927'
     },
 
     {
-        id: 472, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '금광태권도장 ', item: '',
+        id: 472, position: new naver.maps.LatLng(37.449299395926836, 127.14051066400332), type: 'service', industry: '학원', name: '금광태권도장 ', item: '',
         address: '경기도 성남시 수정구 시민로 234   4층 ', phone: '031.755.3396'
     },
 
     {
-        id: 473, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '삼성통증의학과', item: '',
+        id: 473, position: new naver.maps.LatLng(37.441427495270155, 127.14454470244547), type: 'service', industry: '병원', name: '삼성통증의학과', item: '',
         address: '경기도 성남시 수정구 신흥동 수정로 208 메드위즈빌딩 3층', phone: '031-749-6599'
     },
 
     {
-        id: 474, position: new naver.maps.LatLng(), type: 'service', industry: '병원', name: '서울하나치과', item: '',
+        id: 474, position: new naver.maps.LatLng(37.458921102893605, 127.16459048677024), type: 'service', industry: '병원', name: '서울하나치과', item: '',
         address: '경기도 성남시 수정구 양지동 229  3층', phone: '031-734-9200'
     },
 
     {
-        id: 475, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '위례 YBM잉글루 트램영어 제1캠퍼스', item: '',
+        id: 475, position: new naver.maps.LatLng(37.473381248162724, 127.1426636846459), type: 'service', industry: '학원', name: '위례 YBM잉글루 트램영어 제1캠퍼스', item: '',
         address: '경기도 성남시 수정구 위례광장로 310 우성트램타워 9층 YBM잉글루', phone: '031-757-0901/ 010-6272-0221'
     },
 
     {
-        id: 476, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '이화루체음악학원 ', item: '',
+        id: 476, position: new naver.maps.LatLng(37.467412981637985, 127.14836738728589), type: 'service', industry: '학원', name: '이화루체음악학원 ', item: '',
         address: '경기도 성남시 수정구 위례동로61 자연앤래미안이편한세상 상가동201호', phone: '031-755.9333'
     },
 
     {
-        id: 477, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: '카야인터내셔널', item: 'NGO',
+        id: 477, position: new naver.maps.LatLng(37.420646663165776, 127.11654494864416), type: 'service', industry: '기타', name: '카야인터내셔널', item: 'NGO',
         address: '경기도 성남시 수정구 탄천로307번길 14, 3층', phone: '070-5121-2198'
     },
 
     {
-        id: 478, position: new naver.maps.LatLng(), type: 'service', industry: '미용실', name: '김은희 헤어겔러리', item: '',
+        id: 478, position: new naver.maps.LatLng(37.45006524764525, 127.14002445658694), type: 'service', industry: '미용실', name: '김은희 헤어겔러리', item: '',
         address: '경기도 성남시 수정구 태평4동 남문로 129번길 16-1 1층', phone: '010-5325-2393'
     },
 
     {
-        id: 479, position: new naver.maps.LatLng(), type: 'service', industry: '학원', name: '미시간학원', item: '영어,수학 교습',
+        id: 479, position: new naver.maps.LatLng(37.44918245007595, 127.13201741796743), type: 'service', industry: '학원', name: '미시간학원', item: '영어,수학 교습',
         address: '경기도 성남시 수정구 태평로 48번길 10', phone: '031-721-2468'
     },
 
     {
-        id: 480, position: new naver.maps.LatLng(), type: 'service', industry: '기타', name: 'PJ렌트카 성남영업소', item: '',
+        id: 480, position: new naver.maps.LatLng(37.467963728653395, 127.13786379470301), type: 'service', industry: '기타', name: 'PJ렌트카 성남영업소', item: '',
         address: '경기도 성남시 위례서일로1길 3-6 위례헤리움 401호', phone: '010-8512-5026'
     },
 
